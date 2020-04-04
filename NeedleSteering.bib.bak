@@ -116,6 +116,7 @@
   doi       = {10.1142/9789812702678_0056},
   file      = {:Model/MecanicsBasedModels/In_vivo_study_of_forces_during_needle_insertions.pdf:PDF},
   groups    = {Mechanics Based Models, Axial Forces},
+  keywords  = {rank5},
 }
 
 @Article{Yan2008,
@@ -1052,7 +1053,7 @@
   series    = {Biomechanics / Y. C. Fung},
   isbn      = {9783540904724},
   file      = {:Model/Biomechanics/Yuan-Cheng Fung (auth.) - Biomechanics_ Mechanical Properties of Living Tissues-Springer-Verlag New York (1993).pdf:PDF},
-  groups    = {Biomechanics},
+  groups    = {Biomechanics, Axial Forces},
   lccn      = {80016532},
   url       = {https://books.google.co.uk/books?id=OKU0AAAAMAAJ},
 }
@@ -1193,21 +1194,6 @@
   groups   = {Biomechanics},
   keywords = {Soft tissue, Constitutive model, Anisotropic hyperelasticity, Entropic elasticity, Tropocollagen, Collagen, Multi-scale modelling, Skin},
   url      = {http://www.sciencedirect.com/science/article/pii/S1751616111002037},
-}
-
-@InProceedings{1014848,
-  author    = {C. {Simone} and A. M. {Okamura}},
-  title     = {Modeling of needle insertion forces for robot-assisted percutaneous therapy},
-  booktitle = {Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)},
-  year      = {2002},
-  volume    = {2},
-  pages     = {2085-2091 vol.2},
-  month     = {May},
-  doi       = {10.1109/ROBOT.2002.1014848},
-  file      = {:Model/MecanicsBasedModels/modeling-of-needle-insertion-forces-for-robotassisted-percutaneo.pdf:PDF},
-  groups    = {Mechanics Based Models, Axial Forces},
-  issn      = {null},
-  keywords  = {medical robotics;friction;biological tissues;patient treatment;patient diagnosis;haptic interfaces;needle insertion forces;robot-assisted percutaneous therapy;bovine livers;Johns Hopkins University Steady Hand Robot;capsule stiffness;friction;cutting;nonlinear spring model;modified Karnopp model;real-time force data;puncture;tissue layers;liver ablation;prostate brachytherapy;Needles;Robots;Medical treatment;Robotics and automation;Haptic interfaces;Instruments;Minimally invasive surgery;Humans;Feedback;Force measurement},
 }
 
 @InProceedings{1639065,
@@ -2169,6 +2155,33 @@
   file     = {:Model/MecanicsBasedModels/lehmann2015.pdf:PDF},
   groups   = {Mechanics Based Models},
   keywords = {surgery;medical robotics;steering systems;needles;motion control;control engineering computing;path planning;hand held steerable needle device;minimally invasive percutaneous medical procedure;off the shelf medical biopsy needle;lateral steering motion control;computer control;software path planning;Needles;Medical diagnostic imaging;Biomedical imaging;Biopsy;Mechanical engineering;Skin;Surgery;Motion control;Imaging phantoms;Automatic control;Biopsy;medical robotics;needle;steerable},
+}
+
+@InProceedings{1014848,
+  author    = {C. {Simone} and A. M. {Okamura}},
+  title     = {Modeling of needle insertion forces for robot-assisted percutaneous therapy},
+  booktitle = {Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)},
+  year      = {2002},
+  volume    = {2},
+  pages     = {2085-2091 vol.2},
+  month     = {May},
+  abstract  = {Force information from needle insertions was measured and modeled for use in robot-assisted percutaneous therapies. Data was collected on bovine livers using the Johns Hopkins University Steady Hand Robot, and modeled in three parts: force due to capsule stiffness, friction, and cutting. Capsule stiffness is modeled by a nonlinear spring model, friction by a modified Karnopp model, and cutting by the remaining forces, which appear to be constant for a given tissue sample. During robot-assisted procedures, real-time force data can be compared to these models to control puncture of interior structures.},
+  doi       = {10.1109/ROBOT.2002.1014848},
+  file      = {:Model/MecanicsBasedModels/Modeling_of_Needle_Insertion_Forces_for_Robot-Assi.pdf:PDF},
+  groups    = {Mechanics Based Models},
+  keywords  = {medical robotics;friction;biological tissues;patient treatment;patient diagnosis;haptic interfaces;needle insertion forces;robot-assisted percutaneous therapy;bovine livers;Johns Hopkins University Steady Hand Robot;capsule stiffness;friction;cutting;nonlinear spring model;modified Karnopp model;real-time force data;puncture;tissue layers;liver ablation;prostate brachytherapy;Needles;Robots;Medical treatment;Robotics and automation;Haptic interfaces;Instruments;Minimally invasive surgery;Humans;Feedback;Force measurement},
+}
+
+@Article{article,
+  author  = {De Lorenzo, Danilo and Koseki, Yoshihiko and De Momi, Elena and Chinzei, Kiyoyuki and Okamura, Allison},
+  title   = {Coaxial Needle Insertion Assistant With Enhanced Force Feedback},
+  journal = {IEEE transactions on bio-medical engineering},
+  year    = {2012},
+  volume  = {60},
+  month   = {11},
+  doi     = {10.1109/TBME.2012.2227316},
+  file    = {:Model/MecanicsBasedModels/delorenzo2013.pdf:PDF},
+  groups  = {Mechanics Based Models},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
