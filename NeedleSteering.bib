@@ -9,7 +9,7 @@
   month     = {Sep.},
   doi       = {10.1109/IROS.2011.6094959},
   file      = {:Model/MecanicsBasedModels/asadian2011.pdf:PDF},
-  groups    = {Mechanics Based Models},
+  groups    = {Mechanics Based Models, Deflection Models},
   issn      = {2153-0858},
   keywords  = {Needles;Force;Mathematical model;Boundary conditions;Biological tissues;Friction;Phantoms},
 }
@@ -102,7 +102,7 @@
   issn     = {1941-0468},
   doi      = {10.1109/TRO.2007.898972},
   file     = {:Model/MecanicsBasedModels/glozman2007.pdf:PDF},
-  groups   = {Mechanics Based Models},
+  groups   = {Mechanics Based Models, Deflection Models},
   keywords = {closed loop systems;collision avoidance;fluorescence;medical image processing;medical robotics;robot vision;image-guided robotic;flexible needle steering;real-time fluoroscopic guidance;obstacle locations;inverse kinematics;needle insertion;muscle tissue;closed-loop control;Needles;Trajectory;Kinematics;Springs;Shape control;Real time systems;Biological tissues;Robot control;Path planning;Motion detection;Biomedical imaging;flexible structures;medical treatment;robots},
 }
 
@@ -262,7 +262,7 @@
   abstract = {The tip asymmetry of a bevel-tip needle results in the needle naturally bending when it is inserted into soft tissue. This enables robotic needle steering, which can be used in medical procedures to reach subsurface targets inaccessible by straight-line trajectories. However, accurate path planning and control of needle steering requires models of needle-tissue interaction. Previous kinematic models required empirical observations of each needle and tissue combination in order to fit model parameters. This study describes a mechanics-based model of robotic needle steering, which can be used to predict needle behavior and optimize system design based on fundamental mechanical and geometrical properties of the needle and tissue. We first present an analytical model for the loads developed at the tip, based on the geometry of the bevel edge and material properties of soft-tissue simulants (gels). We then present a mechanics-based model that calculates the deflection of a bevel-tipped needle inserted through a soft elastic medium. The model design is guided by microscopic observations of needle-gel interactions. The energy-based formulation incorporates tissue-specific parameters, and the geometry and material properties of the needle. Simulation results follow similar trends (deflection and radius of curvature) to those observed in experimental studies of robotic needle insertion.},
   doi      = {10.1177/0278364910369714},
   file     = {:Model/MecanicsBasedModels/misra2010.pdf:PDF},
-  groups   = {Mechanics Based Models, Survey Papers},
+  groups   = {Mechanics Based Models, Survey Papers, Deflection Models},
   keywords = {rank5},
   url      = {https://pubmed.ncbi.nlm.nih.gov/21170164},
 }
@@ -544,7 +544,7 @@
   doi      = {10.1177/0278364906065388},
   eprint   = {https://doi.org/10.1177/0278364906065388},
   file     = {:Model/KinematicModels/webster2006.pdf:PDF},
-  groups   = {Kinematics Models},
+  groups   = {Kinematics Models, Deflection Models},
   url      = { https://doi.org/10.1177/0278364906065388 },
 }
 
@@ -625,7 +625,7 @@
   school = {Faculty of Engineering, University of the West of England, Bristol},
   year   = {2019},
   file   = {:SimilarPhDs/18044482_1.pdf:PDF},
-  groups = {PhDs},
+  groups = {PhDs, Deflection Models},
 }
 
 @PhdThesis{phdthesis,
@@ -829,7 +829,7 @@
   abstract = {Needle insertion is performed in many clinical and therapeutic procedures. Tissue displacement and needle bending which result from needle–tissue interaction make accurate targeting difficult. For performing physicians to gain essential needle targeting skills, needle insertion simulators can be used for training. An accurate needle bending model is essential for such simulators. These bending models are also needed for needle path planning. In this paper, three different models are presented to simulate the deformations of a needle. The first two models use the finite element method and take the geometric nonlinearity into account. The third model is a series of rigid bars connected by angular springs. The models were compared to recorded deformations during experiments of applying lateral tip forces on a brachytherapy needle. The model parameters were identified and the simulation results were compared to the experimental data. The results show that the angular spring model, which is computationally the most efficient model, is also the most accurate in modeling the bending of the brachytherapy needle.},
   doi      = {https://doi.org/10.1016/j.medengphy.2009.07.007},
   file     = {:Model/FEMModels/goksel2009.pdf:PDF},
-  groups   = {Finite Element Methods},
+  groups   = {Finite Element Methods, Deflection Models},
   keywords = {Flexible needles, Modeling bending, Twisting/torsion, Angular springs, Brachytherapy simulation},
   url      = {http://www.sciencedirect.com/science/article/pii/S1350453309001477},
 }
@@ -1350,7 +1350,7 @@
   volume   = {5},
   pages    = {1350031},
   file     = {:Model/Identification/boroomand2014.pdf:PDF},
-  groups   = {Identification, Axial Forces},
+  groups   = {Identification, Axial Forces, Deflection Models},
   keywords = {rank5},
 }
 
@@ -2136,10 +2136,6 @@
   url      = {http://www.sciencedirect.com/science/article/pii/S1350453317300632},
 }
 
-@Article{,
-  groups = {Finite Element Methods},
-}
-
 @Article{1461405,
   author   = {S. {Okazawa} and R. {Ebrahimi} and J. {Chuang} and S. E. {Salcudean} and R. {Rohling}},
   title    = {Hand-held steerable needle device},
@@ -2184,6 +2180,94 @@
   groups  = {Mechanics Based Models},
 }
 
+@InProceedings{5627676,
+  author    = {A. {Haddadi} and O. {Goksel} and S. E. {Salcudean} and K. {Hashtrudi-Zaad}},
+  title     = {On the controllability of dynamic model-based needle insertion in soft tissue},
+  booktitle = {2010 Annual International Conference of the IEEE Engineering in Medicine and Biology},
+  year      = {2010},
+  pages     = {2287-2291},
+  month     = {Aug},
+  abstract  = {Soft tissue needle guidance and steering for clinical applications has been an active topic of research in the past decade. Although dynamic feedback control of needle insertion systems is expected to provide more accurate target tracking, it has received little attention due to the fact that most available models for needle-tissue interaction do not incorporate the dynamics of motions. In this paper, we study the controllability of rigid or flexible needles inside soft tissues using mechanical-based dynamic models. The results have significant implications on the design of suitable feedback controllers for different types of needle insertion systems.},
+  doi       = {10.1109/IEMBS.2010.5627676},
+  file      = {:Model/DeflectionModels/haddadi2010.pdf:PDF},
+  groups    = {Deflection Models},
+  issn      = {1558-4615},
+  keywords  = {biological tissues;medical control systems;patient diagnosis;patient treatment;controllability;dynamic model-based needle insertion;soft tissue;needle guidance;needle steering;dynamic feedback control;Needles;Controllability;Biological tissues;Joints;Dynamics;Mathematical model;Algorithms;Biomechanics;Biomedical Engineering;Equipment Design;Humans;Kinetics;Models, Statistical;Needles;Robotics},
+}
+
+@InProceedings{7139346,
+  author    = {T. {Lehmann} and C. {Rossa} and N. {Usmani} and R. {Sloboda} and M. {Tavakoli}},
+  title     = {A virtual sensor for needle deflection estimation during soft-tissue needle insertion},
+  booktitle = {2015 IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2015},
+  pages     = {1217-1222},
+  month     = {May},
+  abstract  = {A tissue-independent model to estimate needle deflection during insertion in soft tissue is presented in this paper. A force/torque sensor is connected to the needle base in order to measure forces and moments during insertion due to needle deflection. A static mechanical model, which is based on the Euler-Bernoulli beam equation and the balance of forces applied by the tissue onto the needle takes these force and moment measurements as input. The needle tip deflection can then be calculated based on the beam model undergoing these forces. Three different needle-tissue interaction models are presented. Their estimation performance is evaluated and experimentally compared by carrying out insertion experiments into phantom tissue. The experimental results show a precise estimate of needle tip deflection for a novel virtual sensor introduced in this work. The main advantage of this virtual sensor approach is that measurements obtained from the force/torque sensor are the only necessary model inputs. Furthermore, the approach does not rely on ultrasound or other image-based needle observation techniques. This makes the virtual sensor suitable for real-time feedback of needle tip deflection.},
+  doi       = {10.1109/ICRA.2015.7139346},
+  file      = {:Model/DeflectionModels/jushiddi2019.pdf:PDF},
+  groups    = {Deflection Models, Mechanics Based Models},
+  issn      = {1050-4729},
+  keywords  = {biological tissues;biomedical measurement;force measurement;force sensors;medical robotics;torque measurement;needle deflection estimation;soft-tissue needle insertion;tissue-independent model;force-torque sensor;force measurement;static mechanical model;Euler-Bernoulli beam equation;moment measurements;needle tip deflection;beam model;needle-tissue interaction models;phantom tissue;virtual sensor approach;image-based needle observation techniques;Needles;Load modeling;Force;Mathematical model;Force measurement;DC motors;Robot sensing systems},
+}
+
+@InProceedings{7576929,
+  author    = {T. {Lehmann} and C. {Rossa} and R. {Sloboda} and N. {Usmani} and M. {Tavakoli}},
+  title     = {Needle path control during insertion in soft tissue using a force-sensor-based deflection estimator},
+  booktitle = {2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)},
+  year      = {2016},
+  pages     = {1174-1179},
+  month     = {July},
+  abstract  = {Needle insertion is commonly used in procedures such as prostate brachytherapy or biopsy. In prostate brachytherapy, the success of the procedure depends on the accurate placement of needles in their pre-planned target location. In order to steer the needle towards a defined target, past research has used ultrasound-image-based needle localization for needle tip position feedback. Acquiring and processing of ultrasound images, however, significantly limits the control sampling rate. This work proposes a method for needle path prediction and control without the need for image feedback. The needle tip path obtained during insertion from a force-sensor-based deflection estimator is used to parameterize a kinematic bicycle model. The bicycle model is then used to predict the needle tip path and the ideal rotation depth for reaching a desired target. Experimental results show that the introduced method accurately predicts the needle tip path and the ideal rotation depth to guide the needle to a pre-defined target.},
+  doi       = {10.1109/AIM.2016.7576929},
+  file      = {:Model/DeflectionModels/lehmann2016.pdf:PDF},
+  groups    = {Deflection Models},
+  keywords  = {biological tissues;biomedical ultrasonics;brachytherapy;force sensors;image sampling;medical image processing;needles;position control;kinematic bicycle model;needle path prediction;sampling rate control;ultrasound image processing;needle tip position feedback;ultrasound-image-based needle localization;preplanned target location;needle placement;biopsy;prostate brachytherapy;soft tissue;needle insertion;force-sensor-based deflection estimator;needle path control;Needles;Bicycles;Predictive models;Mathematical model;Kinematics;Trajectory;Load modeling},
+}
+
+@Article{7539366,
+  author   = {T. {Lehmann} and C. {Rossa} and N. {Usmani} and R. S. {Sloboda} and M. {Tavakoli}},
+  title    = {A Real-Time Estimator for Needle Deflection During Insertion Into Soft Tissue Based on Adaptive Modeling of Needle–Tissue Interactions},
+  journal  = {IEEE/ASME Transactions on Mechatronics},
+  year     = {2016},
+  volume   = {21},
+  number   = {6},
+  pages    = {2601-2612},
+  month    = {Dec},
+  issn     = {1941-014X},
+  abstract = {This work proposes a real-time estimator for needle tip deflection and needle shape during needle insertion into soft tissue. The estimator is based on an adaptive quasi-static mechanics-based model for needle-tissue interactions. The model uses Euler-Bernoulli beam theory to model the needle as a cantilever beam that experiences loads imposed by the tissue. The modeled needle-tissue interactions consist of a distributed load along the inserted needle portion and tissue cutting-related point load at the needle tip. We propose a closed-form solution to quantify the magnitude of these needle-tissue interaction loads based on force and torque measured at the needle base. The model adaptively adjusts the shape of the distributed load as the needle is inserted. Experiments are carried out into gelatin phantom and porcine tissue to validate the deflection estimate's performance. The newly proposed model's performance is compared against a previously proposed quasi-static model for needle-deflection estimation. It is shown that the novel model outperforms the previously proposed model.},
+  doi      = {10.1109/TMECH.2016.2598701},
+  file     = {:Model/DeflectionModels/lehmann2016a.pdf:PDF},
+  groups   = {Deflection Models},
+  keywords = {biological tissues;force measurement;gelatin;phantoms;tissue engineering;torque measurement;real-time estimator;needle tip deflection;needle shape;needle-tissue interaction loads;needle insertion;soft tissue;adaptive quasistatic mechanics-based model;Euler-Bernoulli beam theory;cantilever beam;tissue cutting-related point load;force measurement;torque measurement;needle base;gelatin phantom;porcine tissue;Needles;Load modeling;Force;Adaptation models;Shape;Ultrasonic imaging;Shafts},
+}
+
+@PhdThesis{Barnett2015a,
+  author = {Barnett, Andrew Charles},
+  title  = {Tissue cutting mechanics of dynamic needle insertion},
+  school = {Penn State University},
+  year   = {2015},
+  month  = {12},
+  file   = {:SimilarPhDs/abarnett_dissertation.pdf:PDF},
+  groups = {PhDs},
+}
+
+@Article{doi:10.1002/rcs.136,
+  author   = {Abolhassani, Niki and Patel, Rajni V. and Ayazi, Farzam},
+  title    = {Minimization of needle deflection in robot-assisted percutaneous therapy},
+  journal  = {The International Journal of Medical Robotics and Computer Assisted Surgery},
+  year     = {2007},
+  volume   = {3},
+  number   = {2},
+  pages    = {140-148},
+  abstract = {Abstract Background Needle deflection and tissue deformation are two problems encountered during needle insertion into soft, non-homogeneous tissue. They affect the accuracy of needle placement, which in turn affects the effectiveness of needle-based therapies and biopsies. Methods In this study, a needle is inserted using a robot with two degrees of freedom. The needle is modelled as a flexible beam with clamped support at one end, and its deflection is estimated using online force/moment measurements at the needle base. To compensate for the needle deflection, the needle is axially rotated through 180° . The needle deflection estimation data is used to find the insertion depths at which needle rotations are to be performed. Results A bevelled-tip needle was inserted into animal tissue. The needle deflection at the target was reduced by about 90\%. It was observed that minimization of needle deflection reduced tissue deformation. The proposed method reduced needle deflection more than when needle insertion was performed with constant rotation. Conclusions Estimating needle tip position using online force/moment measurement improves the accuracy of robot-assisted percutaneous procedures when imaging feedback is not available. Copyright © 2007 John Wiley \& Sons, Ltd.},
+  doi      = {10.1002/rcs.136},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rcs.136},
+  file     = {:Model/DeflectionModels/abolhassani2007.pdf:PDF},
+  groups   = {Deflection Models},
+  keywords = {robotic needle insertion, prostate brachytherapy, needle deflection, trajectory generation, soft tissue deformation},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rcs.136},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -2198,10 +2282,11 @@
 2 ExplicitGroup:Identification\;0\;;
 2 ExplicitGroup:Energy Methods\;0\;;
 2 ExplicitGroup:Axial Forces\;0\;;
-1 ExplicitGroup:Survey Papers\;0\;;
+2 ExplicitGroup:Deflection Models\;0\;;
 1 ExplicitGroup:PhDs\;0\;;
 1 ExplicitGroup:Robots\;0\;;
 1 ExplicitGroup:Haptic Simulation\;0\;;
 1 ExplicitGroup:Biomechanics\;0\;;
 1 ExplicitGroup:MyWork\;0\;;
+1 ExplicitGroup:Survey Papers\;0\;;
 }
