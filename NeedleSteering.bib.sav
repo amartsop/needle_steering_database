@@ -1,17 +1,18 @@
 % Encoding: UTF-8
 
 @InProceedings{Asadian2011,
-  author    = {A. {Asadian} and M. R. {Kermani} and R. V. {Patel}},
-  booktitle = {2011 IEEE/RSJ International Conference on Intelligent Robots and Systems},
-  title     = {An analytical model for deflection of flexible needles during needle insertion},
-  year      = {2011},
-  month     = {Sep.},
-  pages     = {2551-2556},
-  doi       = {10.1109/IROS.2011.6094959},
-  file      = {:Model/MecanicsBasedModels/asadian2011.pdf:PDF},
-  groups    = {Mechanics Based Models, Deflection Models, Next},
-  issn      = {2153-0858},
-  keywords  = {Needles;Force;Mathematical model;Boundary conditions;Biological tissues;Friction;Phantoms},
+  author     = {A. {Asadian} and M. R. {Kermani} and R. V. {Patel}},
+  booktitle  = {2011 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  title      = {An analytical model for deflection of flexible needles during needle insertion},
+  year       = {2011},
+  month      = {Sep.},
+  pages      = {2551-2556},
+  doi        = {10.1109/IROS.2011.6094959},
+  file       = {:Model/MecanicsBasedModels/asadian2011.pdf:PDF},
+  groups     = {Mechanics Based Models, Deflection Models, Next, Free Body Diagrams},
+  issn       = {2153-0858},
+  keywords   = {Needles;Force;Mathematical model;Boundary conditions;Biological tissues;Friction;Phantoms, read},
+  readstatus = {read},
 }
 
 @InProceedings{Abayazid2013a,
@@ -46,17 +47,17 @@
 
 @Article{Abayazid2013,
   author   = {M. {Abayazid} and R. J. {Roesthuis} and R. {Reilink} and S. {Misra}},
-  title    = {Integrating Deflection Models and Image Feedback for Real-Time Flexible Needle Steering},
   journal  = {IEEE Transactions on Robotics},
+  title    = {Integrating Deflection Models and Image Feedback for Real-Time Flexible Needle Steering},
   year     = {2013},
-  volume   = {29},
+  issn     = {1941-0468},
+  month    = {April},
   number   = {2},
   pages    = {542-553},
-  month    = {April},
-  issn     = {1941-0468},
+  volume   = {29},
   doi      = {10.1109/TRO.2012.2230991},
   file     = {:Model/MecanicsBasedModels/abayazid2013a.pdf:PDF},
-  groups   = {Mechanics Based Models},
+  groups   = {Mechanics Based Models, Free Body Diagrams},
   keywords = {biological tissues;biomedical ultrasonics;cameras;feedback;medical image processing;medical robotics;needles;object detection;steering systems;ultrasonic imaging;deflection model integration;image feedback;needle insertion procedure;image guided control system;robotically steer flexible needle;asymmetric tip;needle deflection;kinematics-based model;needle-tissue interaction mechanics;mechanics-based model;target position detection;camera;ultrasound image guided steering;lesions;ultrasound imaging system;patient diagnosis;patient therapy;distance 110 mm;size 0.8 mm;size 1.7 mm;size 0.35 mm;size 0.42 mm;Needles;Shape;Predictive models;Ultrasonic imaging;Target tracking;Force;Real-time systems;Computer-assisted surgery;image-guided control;minimally invasive surgery;needle–tissue interactions;ultrasound},
 }
 
@@ -72,7 +73,7 @@
   abstract = {In this study, a distributed approach to account for dynamic friction during needle insertion in soft tissue is presented. As is well known, friction is a complex nonlinear phenomenon. It appears that classical or static models are unable to capture some of the observations made in systems subjected to significant frictional effects. In needle insertion, translational friction would be a matter of importance when the needle is very flexible, or a stop-and-rotate motion profile at low insertion velocities is implemented, and thus, the system is repeatedly transitioned from a pre-sliding to a sliding mode and vice versa. In order to characterize friction components, a distributed version of the LuGre model in the state-space representation is adopted. This method also facilitates estimating cutting force in an intra-operative manner. To evaluate the performance of the proposed family of friction models, experiments were conducted on homogeneous artificial phantoms and animal tissue. The results illustrate that our approach enables us to represent the main features of friction which is a major force component in needle-tissue interaction during needle-based interventions.},
   doi      = {10.1007/s10439-013-0892-5},
   file     = {:Model/MecanicsBasedModels/asadian2013.pdf:PDF},
-  groups   = {Mechanics Based Models, Identification, Axial Forces, [thanos:]},
+  groups   = {Mechanics Based Models, Identification, Axial Forces, [thanos:], Free Body Diagrams},
   keywords = {rank5},
   ranking  = {rank5},
   url      = {https://doi.org/10.1007/s10439-013-0892-5},
@@ -102,7 +103,7 @@
   volume     = {23},
   doi        = {10.1109/TRO.2007.898972},
   file       = {:Model/MecanicsBasedModels/glozman2007.pdf:PDF},
-  groups     = {Mechanics Based Models, Deflection Models},
+  groups     = {Mechanics Based Models, Deflection Models, Axial Insertion Data},
   keywords   = {closed loop systems;collision avoidance;fluorescence;medical image processing;medical robotics;robot vision;image-guided robotic;flexible needle steering;real-time fluoroscopic guidance;obstacle locations;inverse kinematics;needle insertion;muscle tissue;closed-loop control;Needles;Trajectory;Kinematics;Springs;Shape control;Real time systems;Biological tissues;Robot control;Path planning;Motion detection;Biomedical imaging;flexible structures;medical treatment;robots, read},
   readstatus = {read},
 }
@@ -122,29 +123,31 @@
 
 @Article{Yan2008,
   author  = {Yan, K and Podder, Tarun and Yu, Yan and Liu, T.-I and Cheng, C and Ng, Wing},
-  title   = {Flexible Needle-Tissue Interaction Modeling with Depth-varying Mean Parameter: Preliminary Study},
   journal = {IEEE transactions on bio-medical engineering},
+  title   = {Flexible Needle-Tissue Interaction Modeling with Depth-varying Mean Parameter: Preliminary Study},
   year    = {2008},
-  volume  = {56},
   month   = {07},
+  volume  = {56},
   doi     = {10.1109/TBME.2007.896586},
   file    = {:Model/MecanicsBasedModels/kaiguoyan2009.pdf:PDF},
-  groups  = {Mechanics Based Models, Axial Forces},
+  groups  = {Mechanics Based Models, Axial Forces, Free Body Diagrams},
 }
 
 @InProceedings{Kataoka2001,
-  author    = {Kataoka, Hiroyuki and Washio, Toshikatsu and Audette, Michel and Mizuhara, Kazuyuki},
-  booktitle = {Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2001},
-  title     = {A Model for Relations Between Needle Deflection, Force, and Thickness on Needle Penetration},
-  year      = {2001},
-  address   = {Berlin, Heidelberg},
-  editor    = {Niessen, Wiro J. and Viergever, Max A.},
-  pages     = {966--974},
-  publisher = {Springer Berlin Heidelberg},
-  abstract  = {A force-deflection model of needle penetration is proposed and evaluated experimentally. The force at the fixed end of the needle and the needle deflection were measured using a force sensor and a bi-plane X-ray imaging system, and the model was evaluated with the data. We define a physical quantity w, which we can infinitesimal force per length, analogous to tranction (force per surface area). The model predicts w to be constant over the lenght of the i nserted portion of the needle. However the results indicate that this assumption does not fully accout for the real deflection. It is strongly suggested that there is an additional degree of freedom: a moment or a rotational force acting on the needle.},
-  file      = {:Model/MecanicsBasedModels/Kataoka2001_Chapter_AModelForRelationsBetweenNeedl.pdf:PDF;:Model/MecanicsBasedModels/Kataoka2001_Chapter_AModelForRelationsBetweenNeedl.pdf:PDF},
-  groups    = {Mechanics Based Models},
-  isbn      = {978-3-540-45468-7},
+  author     = {Kataoka, Hiroyuki and Washio, Toshikatsu and Audette, Michel and Mizuhara, Kazuyuki},
+  booktitle  = {Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2001},
+  title      = {A Model for Relations Between Needle Deflection, Force, and Thickness on Needle Penetration},
+  year       = {2001},
+  address    = {Berlin, Heidelberg},
+  editor     = {Niessen, Wiro J. and Viergever, Max A.},
+  pages      = {966--974},
+  publisher  = {Springer Berlin Heidelberg},
+  abstract   = {A force-deflection model of needle penetration is proposed and evaluated experimentally. The force at the fixed end of the needle and the needle deflection were measured using a force sensor and a bi-plane X-ray imaging system, and the model was evaluated with the data. We define a physical quantity w, which we can infinitesimal force per length, analogous to tranction (force per surface area). The model predicts w to be constant over the lenght of the i nserted portion of the needle. However the results indicate that this assumption does not fully accout for the real deflection. It is strongly suggested that there is an additional degree of freedom: a moment or a rotational force acting on the needle.},
+  file       = {:Model/MecanicsBasedModels/Kataoka2001_Chapter_AModelForRelationsBetweenNeedl.pdf:PDF;:Model/MecanicsBasedModels/Kataoka2001_Chapter_AModelForRelationsBetweenNeedl.pdf:PDF},
+  groups     = {Mechanics Based Models, Free Body Diagrams},
+  isbn       = {978-3-540-45468-7},
+  keywords   = {read},
+  readstatus = {read},
 }
 
 @Article{Khadem2016,
@@ -159,7 +162,7 @@
   volume   = {1},
   doi      = {10.1109/LRA.2016.2528301},
   file     = {:Model/MecanicsBasedModels/khadem2016.pdf:PDF},
-  groups   = {Mechanics Based Models, Identification, Energy Methods, Axial Forces, Axial Insertion Data, Velocity Dependence, Fracture Mechanics},
+  groups   = {Mechanics Based Models, Identification, Energy Methods, Axial Forces, Axial Insertion Data, Velocity Dependence, Fracture Mechanics, Free Body Diagrams},
   keywords = {biological tissues;biomechanics;friction;medical robotics;needles;viscoelasticity;needle-tissue friction model;needle driving robot;porcine tissue sample;needle retraction;needle shaft;needle tip geometry;energy-based fracture model;tissue crack propagation;force-displacement response;maximum puncturing force;fracture initiation;viscoelastic model;tissue crack formation;soft tissue deformation;tissue puncturing;tissue cutting force;tissue mechanical characteristics;insertion velocity;inhomogeneous biological tissue;needle tip interaction dynamics;robotics-assisted needle steering;needle-tissue interaction;targeting error;needle deflection;needle tip cutting force;percutaneous needle insertion;tissue cutting mechanics;Needles;Force;Biological tissues;Biological system modeling;Predictive models;Friction;Shafts;Surgical Robotics;Steerable Catheters/Needles;Contact Modelling;Surgical Robotics: Steerable Catheters/Needles;Contact Modelling, rank5},
   ranking  = {rank5},
 }
@@ -179,30 +182,32 @@
 
 @Article{Khadem2016a,
   author   = {M. {Khadem} and C. {Rossa} and N. {Usmani} and R. S. {Sloboda} and M. {Tavakoli}},
-  title    = {A Two-Body Rigid/Flexible Model of Needle Steering Dynamics in Soft Tissue},
   journal  = {IEEE/ASME Transactions on Mechatronics},
+  title    = {A Two-Body Rigid/Flexible Model of Needle Steering Dynamics in Soft Tissue},
   year     = {2016},
-  volume   = {21},
+  issn     = {1941-014X},
+  month    = {Oct},
   number   = {5},
   pages    = {2352-2364},
-  month    = {Oct},
-  issn     = {1941-014X},
+  volume   = {21},
   doi      = {10.1109/TMECH.2016.2549505},
   file     = {:Model/MecanicsBasedModels/khadem2016a.pdf:PDF},
-  groups   = {Mechanics Based Models},
+  groups   = {Mechanics Based Models, Free Body Diagrams},
   keywords = {biological tissues;fracture mechanics;medical robotics;needles;robot dynamics;surgery;two-body rigid model;flexible coupled system;needle steering dynamics;soft tissue;robotics-assisted needle steering;targeting accuracy enhancement;percutaneous interventions;dynamic modeling;robotically controlled needle steering;needle shape prediction;axial rotation;hybrid formulation;needle inserting robot;needle continuous deflection;time-delayed tissue model;fracture mechanics-based model;needle tip cutting force;animal tissues;medical robotics;Needles;Robots;Dynamics;Force;Biological tissues;Computational modeling;IEEE transactions;Dynamic modeling;medical robotics;needle steering},
 }
 
 @Article{Lee2014,
-  author  = {Lee, Hyosang and Kim, Jung},
-  title   = {Estimation of flexible needle deflection in layered soft tissues with different elastic moduli},
-  journal = {Medical \& biological engineering \& computing},
-  year    = {2014},
-  volume  = {52},
-  month   = {07},
-  doi     = {10.1007/s11517-014-1173-7},
-  file    = {:Model/MecanicsBasedModels/lee2014.pdf:PDF},
-  groups  = {Mechanics Based Models, Next},
+  author     = {Lee, Hyosang and Kim, Jung},
+  journal    = {Medical \& biological engineering \& computing},
+  title      = {Estimation of flexible needle deflection in layered soft tissues with different elastic moduli},
+  year       = {2014},
+  month      = {07},
+  volume     = {52},
+  doi        = {10.1007/s11517-014-1173-7},
+  file       = {:Model/MecanicsBasedModels/lee2014.pdf:PDF},
+  groups     = {Mechanics Based Models, Next, Free Body Diagrams},
+  keywords   = {read},
+  readstatus = {read},
 }
 
 @InProceedings{Mahvash2009,
@@ -245,7 +250,7 @@
   pages     = {224-231},
   doi       = {10.1109/BIOROB.2008.4762872},
   file      = {:Model/MecanicsBasedModels/misra2008.pdf:PDF},
-  groups    = {Mechanics Based Models, [thanos:], Fracture Mechanics},
+  groups    = {Mechanics Based Models, [thanos:], Free Body Diagrams},
   issn      = {2155-1782},
   keywords  = {biological tissues;biomedical materials;fracture toughness;needles;needle-tissue interaction forces;bevel tip steerable needles;asymmetry;rupture toughness;nonlinear material elasticity;gels;chicken tissue;Needles;Biological tissues;Elasticity;Robots;Biological materials;Finite element methods;Kinematics;Material properties;Biomechatronics;USA Councils, rank5},
   ranking   = {rank5},
@@ -265,7 +270,7 @@
   abstract = {The tip asymmetry of a bevel-tip needle results in the needle naturally bending when it is inserted into soft tissue. This enables robotic needle steering, which can be used in medical procedures to reach subsurface targets inaccessible by straight-line trajectories. However, accurate path planning and control of needle steering requires models of needle-tissue interaction. Previous kinematic models required empirical observations of each needle and tissue combination in order to fit model parameters. This study describes a mechanics-based model of robotic needle steering, which can be used to predict needle behavior and optimize system design based on fundamental mechanical and geometrical properties of the needle and tissue. We first present an analytical model for the loads developed at the tip, based on the geometry of the bevel edge and material properties of soft-tissue simulants (gels). We then present a mechanics-based model that calculates the deflection of a bevel-tipped needle inserted through a soft elastic medium. The model design is guided by microscopic observations of needle-gel interactions. The energy-based formulation incorporates tissue-specific parameters, and the geometry and material properties of the needle. Simulation results follow similar trends (deflection and radius of curvature) to those observed in experimental studies of robotic needle insertion.},
   doi      = {10.1177/0278364910369714},
   file     = {:Model/MecanicsBasedModels/misra2010.pdf:PDF},
-  groups   = {Mechanics Based Models, Survey Papers, Deflection Models, Next},
+  groups   = {Mechanics Based Models, Survey Papers, Deflection Models, Next, Free Body Diagrams},
   keywords = {rank5},
   ranking  = {rank5},
   url      = {https://pubmed.ncbi.nlm.nih.gov/21170164},
@@ -283,7 +288,7 @@
   abstract = {In this study, a mechanistic approach using elementary cutting tool (ECT) edges of varying inclination and normal rake angles is demonstrated to be capable to predict hollow needle insertion force. A needle force model is developed and validated for the specific case of 11gauge two-plane symmetric needles. Blades of varying inclination and rake angles are inserted into bovine liver to determine the specific force of initial tissue cutting for the given edge geometry; this information is applied to the ECT force model which is validated against experimental force results of hollow needles inserted into bovine liver.},
   doi      = {https://doi.org/10.1016/j.cirp.2011.03.101},
   file     = {:Model/MecanicsBasedModels/moore2011.pdf:PDF},
-  groups   = {Mechanics Based Models},
+  groups   = {Mechanics Based Models, Free Body Diagrams},
   keywords = {Force, Cutting edge, Tissue cutting},
   url      = {http://www.sciencedirect.com/science/article/pii/S0007850611001028},
 }
@@ -361,7 +366,7 @@
   pages     = {2557-2563},
   doi       = {10.1109/IROS.2011.6094969},
   file      = {:Model/MecanicsBasedModels/roesthuis2011.pdf:PDF},
-  groups    = {Mechanics Based Models, Next},
+  groups    = {Mechanics Based Models, Next, Free Body Diagrams},
   issn      = {2153-0858},
   keywords  = {Needles;Force;Friction;Phantoms;Shafts;Biological tissues;Force measurement},
 }
@@ -378,7 +383,7 @@
   volume   = {19},
   doi      = {10.1109/TMECH.2013.2269836},
   file     = {:Model/MecanicsBasedModels/roesthuis2014.pdf:PDF},
-  groups   = {Mechanics Based Models, Next},
+  groups   = {Mechanics Based Models, Next, Free Body Diagrams},
   keywords = {biomedical equipment;Bragg gratings;fibre optic sensors;needles;strain measurement;three-dimensional needle shape reconstruction;fiber Bragg grating sensors;flexible nitinol needle;FBG sensors;axial strain measurement;needle curvature;3D needle shape;beam theory-based model;in-plane deflection;kinematics-based models;mechanics-based models;soft-tissue simulant;clinical imaging modalities;Needles;Shape;Sensors;Fiber gratings;Strain;Force;Fiber Bragg gratings (FBGs);kinematics-based model;mechanics-based model;needle deflection models;shape reconstruction;soft tissue},
 }
 
@@ -408,7 +413,7 @@
   volume   = {61},
   doi      = {10.1109/TBME.2014.2326161},
   file     = {:Model/MecanicsBasedModels/swensen2014.pdf:PDF},
-  groups   = {Mechanics Based Models, Next},
+  groups   = {Mechanics Based Models, Next, Free Body Diagrams},
   keywords = {biological tissues;biomedical optical imaging;cameras;diagnostic radiography;time-varying systems;steerable needles;fluoroscopic guidance;needle insertions;medical interventions;tip-steerable needles;tip twist angles;torsional dynamics model;subsurface insertion;flexible rod;boundary conditions;numerical simulation;setup-stereo camera feedback;semitransparent artificial tissue;feedback control;real-time X-ray imaging;optically opaque artificial tissue;Needles;Mathematical model;Torque;Robots;Kinematics;Dynamics;Springs;Continuum robot;medical robot;robot dynamics;tip-steerable needles;Biomechanical Phenomena;Computer Simulation;Fluoroscopy;Models, Biological;Needles;Robotic Surgical Procedures;Torsion, Mechanical},
 }
 
@@ -434,7 +439,7 @@
   pages     = {607-611},
   doi       = {10.1109/ROBIO.2007.4522231},
   file      = {:Model/MecanicsBasedModels/xuejianhe2007.pdf:PDF},
-  groups    = {Mechanics Based Models, Axial Forces},
+  groups    = {Mechanics Based Models, Axial Forces, Free Body Diagrams},
   issn      = {null},
   keywords  = {biological tissues;buckling;force feedback;haptic interfaces;medical computing;haptic simulation;flexible needle insertion;force feedback;needle buckling;insertion path control;needle deflection;tissue deformation;Haptic interfaces;Needles;Deformable models;Computational modeling;Capacitive sensors;Force feedback;Biological system modeling;Computer simulation;Rendering (computer graphics);Computer interfaces;flexible needle;haptics;needle insertion;buckling},
 }
@@ -449,7 +454,7 @@
   volume   = {1},
   doi      = {10.1007/s11548-006-0058-0},
   file     = {:Model/MecanicsBasedModels/yan2006.pdf:PDF},
-  groups   = {Mechanics Based Models, Identification, Axial Forces, Axial Insertion Data},
+  groups   = {Mechanics Based Models, Identification, Axial Forces, Axial Insertion Data, Free Body Diagrams},
   keywords = {rank5},
   ranking  = {rank5},
 }
@@ -466,7 +471,7 @@
   article-number = {561},
   doi            = {10.3390/s18020561},
   file           = {:SurveyPapers/sensors-18-00561.pdf:PDF},
-  groups         = {Survey Papers, Axial Forces, Axial Insertion Data},
+  groups         = {Survey Papers, Axial Forces, Free Body Diagrams},
   url            = {https://www.mdpi.com/1424-8220/18/2/561},
 }
 
@@ -488,39 +493,39 @@
 
 @Article{Cowan2010,
   author  = {Cowan, Noah and Goldberg, Kenneth and Chirikjian, Gregory and Fichtinger, Gabor and Alterovitz, Ron and Reed, Kyle and Kallem, Vinutha and Park, Wooram and Misra, Sarthak and Okamura, Allison},
-  title   = {Robotic Needle Steering: Design, Modeling, Planning, and Image Guidance},
   journal = {Surgical Robotics: Systems Applications and Visions},
+  title   = {Robotic Needle Steering: Design, Modeling, Planning, and Image Guidance},
   year    = {2010},
   month   = {11},
   doi     = {10.1007/978-1-4419-1126-1_23},
   file    = {:SurveyPapers/cowan2010.pdf:PDF},
   group   = {Survey Papers},
-  groups  = {Survey Papers},
+  groups  = {Survey Papers, Free Body Diagrams},
 }
 
 @Article{Abolhassani2007,
   author  = {Abolhassani, Niki and Patel, Rajni and Moallem, Mehrdad},
-  title   = {Needle insertion into soft tissue: A survey},
   journal = {Medical engineering \& physics},
+  title   = {Needle insertion into soft tissue: A survey},
   year    = {2007},
-  volume  = {29},
-  pages   = {413-31},
   month   = {06},
+  pages   = {413-31},
+  volume  = {29},
   doi     = {10.1016/j.medengphy.2006.07.003},
   file    = {:SurveyPapers/abolhassani2007.pdf:PDF},
-  groups  = {Survey Papers, Axial Forces},
+  groups  = {Survey Papers, Axial Forces, Geometric Design},
 }
 
 @Article{Ravali2017,
   author  = {Ravali, Gourishetti and Muniyandi, Manivannan},
-  title   = {Haptic Feedback in Needle Insertion Modeling and Simulation: Review},
   journal = {IEEE Reviews in Biomedical Engineering},
+  title   = {Haptic Feedback in Needle Insertion Modeling and Simulation: Review},
   year    = {2017},
-  volume  = {PP},
   month   = {05},
+  volume  = {PP},
   doi     = {10.1109/RBME.2017.2706966},
   file    = {:SurveyPapers/ravali2017SOS.pdf:PDF},
-  groups  = {Survey Papers, Axial Forces, Next},
+  groups  = {Survey Papers, Axial Forces, Next, Free Body Diagrams},
 }
 
 @InProceedings{Fallahi2015,
@@ -532,7 +537,7 @@
   pages     = {4375-4380},
   doi       = {10.1109/IROS.2015.7353998},
   file      = {:Model/KinematicModels/fallahi2015.pdf:PDF},
-  groups    = {Kinematics Models},
+  groups    = {Kinematics Models, Free Body Diagrams},
   issn      = {null},
   keywords  = {biological tissues;medical robotics;mobile robots;needle steering;kinematic bicycle model;beveled-tip needle motion;omnidirectional wheel;bicycle wheel;soft phantom tissue;extended bicycle model;Needles;Wheels;Bicycles;Kinematics;Mathematical model;Biological tissues;Biological system modeling},
 }
@@ -549,7 +554,7 @@
   doi      = {10.1177/0278364906065388},
   eprint   = {https://doi.org/10.1177/0278364906065388},
   file     = {:Model/KinematicModels/webster2006.pdf:PDF},
-  groups   = {Kinematics Models, Deflection Models},
+  groups   = {Kinematics Models, Deflection Models, Free Body Diagrams},
   url      = {https://doi.org/10.1177/0278364906065388},
 }
 
@@ -598,7 +603,7 @@
   abstract = {Steering of needles involves the planning and timely modifying of instrument-tissue force interactions to allow for controlled deflections during the insertion in tissue. In this work, the effect of tip shape on these forces was studied using 10 mm diameter needle tips. Six different tips were selected, including beveled and conical versions, with or without pre-bend or pre-curve. A six-degree-of-freedom force/torque sensor measured the loads during indentations in tissue simulants. The increased insertion (axial) and bending (radial) forces with insertion depth -- the force-displacement slopes -- were analyzed. Results showed that the ratio between radial and axial forces was not always proportional. This means that the tip load does not have a constant orientation, as is often assumed in mechanics-based steering models. For all tip types, the tip-load assumed a more radial orientation with increased axial load. This effect was larger for straight tips than for pre-bent or pre-curved tips. In addition, the force-displacement slopes were consistently higher for (1) increased tip angles, and for (2) beveled tips compared to conical tips. Needles with a bent or curved tip allow for an increased bending force and a decreased variability of the tip load vector orientation.},
   doi      = {10.1038/srep40477},
   file     = {:Model/Geometry/srep40477.pdf:PDF},
-  groups   = {Geometric Design, Axial Insertion Data},
+  groups   = {Geometric Design, Axial Insertion Data, Free Body Diagrams},
   url      = {https://doi.org/10.1038/srep40477},
 }
 
@@ -626,11 +631,11 @@
 
 @MastersThesis{Carrasco2019,
   author = {Carolina Avila Carrasco},
-  title  = {Modelling of brachytherapy needle deflection},
   school = {Faculty of Engineering, University of the West of England, Bristol},
+  title  = {Modelling of brachytherapy needle deflection},
   year   = {2019},
   file   = {:SimilarPhDs/18044482_1.pdf:PDF},
-  groups = {PhDs, Deflection Models},
+  groups = {PhDs, Deflection Models, Free Body Diagrams},
 }
 
 @PhdThesis{Golec2018,
@@ -659,20 +664,20 @@
 
 @Article{Misra2008,
   author   = {Misra, Sarthak and Ramesh, K. T. and Okamura, Allison M.},
-  title    = {Modeling of Tool-Tissue Interactions for Computer-Based Surgical Simulation: A Literature Review},
   journal  = {Presence (Cambridge, Mass.)},
+  title    = {Modeling of Tool-Tissue Interactions for Computer-Based Surgical Simulation: A Literature Review},
   year     = {2008},
-  volume   = {17},
+  issn     = {1054-7460},
+  month    = {Oct},
+  note     = {20119508[pmid]},
   number   = {5},
   pages    = {463-463},
-  month    = {Oct},
-  issn     = {1054-7460},
-  note     = {20119508[pmid]},
+  volume   = {17},
   abstract = {Surgical simulators present a safe and potentially effective method for surgical training, and can also be used in robot-assisted surgery for pre- and intra-operative planning. Accurate modeling of the interaction between surgical instruments and organs has been recognized as a key requirement in the development of high-fidelity surgical simulators. Researchers have attempted to model tool-tissue interactions in a wide variety of ways, which can be broadly classified as (1) linear elasticity-based, (2) nonlinear (hyperelastic) elasticity-based finite element (FE) methods, and (3) other techniques that not based on FE methods or continuum mechanics. Realistic modeling of organ deformation requires populating the model with real tissue data (which are difficult to acquire in vivo) and simulating organ response in real time (which is computationally expensive). Further, it is challenging to account for connective tissue supporting the organ, friction, and topological changes resulting from tool-tissue interactions during invasive surgical procedures. Overcoming such obstacles will not only help us to model tool-tissue interactions in real time, but also enable realistic force feedback to the user during surgical simulation. This review paper classifies the existing research on tool-tissue interactions for surgical simulators specifically based on the modeling techniques employed and the kind of surgical operation being simulated, in order to inform and motivate future research on improved tool-tissue interaction models.},
   day      = {01},
   doi      = {10.1162/pres.17.5.463},
   file     = {:SurveyPapers/misra2008.pdf:PDF},
-  groups   = {Survey Papers, Next},
+  groups   = {Survey Papers, Next, Free Body Diagrams},
   url      = {https://pubmed.ncbi.nlm.nih.gov/20119508},
 }
 
@@ -802,14 +807,14 @@
 
 @Article{Gao2016,
   author  = {Gao, Dedong and Lei, Yong and Lian, Bin and Yao, Bin},
-  title   = {Modeling and Simulation of Flexible Needle Insertion Into Soft Tissue Using Modified Local Constraints},
   journal = {Journal of Manufacturing Science and Engineering},
+  title   = {Modeling and Simulation of Flexible Needle Insertion Into Soft Tissue Using Modified Local Constraints},
   year    = {2016},
-  volume  = {138},
   month   = {07},
+  volume  = {138},
   doi     = {10.1115/1.4034134},
   file    = {:Model/FEMModels/gao2016.pdf:PDF},
-  groups  = {Finite Element Methods, Next},
+  groups  = {Finite Element Methods, Next, Free Body Diagrams},
 }
 
 @Article{Goksel2006,
@@ -837,7 +842,7 @@
   abstract = {Needle insertion is performed in many clinical and therapeutic procedures. Tissue displacement and needle bending which result from needle–tissue interaction make accurate targeting difficult. For performing physicians to gain essential needle targeting skills, needle insertion simulators can be used for training. An accurate needle bending model is essential for such simulators. These bending models are also needed for needle path planning. In this paper, three different models are presented to simulate the deformations of a needle. The first two models use the finite element method and take the geometric nonlinearity into account. The third model is a series of rigid bars connected by angular springs. The models were compared to recorded deformations during experiments of applying lateral tip forces on a brachytherapy needle. The model parameters were identified and the simulation results were compared to the experimental data. The results show that the angular spring model, which is computationally the most efficient model, is also the most accurate in modeling the bending of the brachytherapy needle.},
   doi      = {https://doi.org/10.1016/j.medengphy.2009.07.007},
   file     = {:Model/FEMModels/goksel2009.pdf:PDF},
-  groups   = {Finite Element Methods, Deflection Models},
+  groups   = {Finite Element Methods, Deflection Models, Free Body Diagrams},
   keywords = {Flexible needles, Modeling bending, Twisting/torsion, Angular springs, Brachytherapy simulation},
   url      = {http://www.sciencedirect.com/science/article/pii/S1350453309001477},
 }
@@ -851,7 +856,7 @@
   pages     = {2264-2269},
   doi       = {10.1109/ICRA.2015.7139499},
   file      = {:Model/MecanicsBasedModels/khadem2015.pdf:PDF},
-  groups    = {Mechanics Based Models},
+  groups    = {Mechanics Based Models, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {biological tissues;biomechanics;deformation;medical robotics;mechanics-based model;flexible needle insertion simulation;flexible needle insertion control;soft tissue;needle-based medical procedures;beveled-tip flexible needles;needle-based intervention efficiency;needle tip control;insertion velocity;needle steering;tissue deformation effects;needle-tissue friction;tissue cutting force;needle bevel angle;phantom tissue;needle tip deflection prediction;robot;Needles;Force;Load modeling;Friction;Mathematical model;Biological tissues;Dynamics, rank5},
   ranking   = {rank5},
@@ -859,15 +864,15 @@
 
 @Article{Maghsoudi2013,
   author  = {Maghsoudi, Arash and Jahed, Mehran},
-  title   = {Model-based needle control in prostate percutaneous procedures},
   journal = {Proceedings of the Institution of Mechanical Engineers. Part H, Journal of engineering in medicine},
+  title   = {Model-based needle control in prostate percutaneous procedures},
   year    = {2013},
-  volume  = {227},
-  pages   = {58-71},
   month   = {03},
+  pages   = {58-71},
+  volume  = {227},
   doi     = {10.1177/0954411912458489},
   file    = {:Model/FEMModels/maghsoudi2012.pdf:PDF},
-  groups  = {Finite Element Methods, Next},
+  groups  = {Finite Element Methods, Next, Free Body Diagrams},
 }
 
 @InProceedings{Mallapragada2008,
@@ -915,7 +920,7 @@
   volume   = {4},
   doi      = {10.1109/TOH.2011.34},
   file     = {:Model/FEMModels/goksel2011.pdf:PDF},
-  groups   = {Finite Element Methods, Next, Axial Insertion Data},
+  groups   = {Finite Element Methods, Next, Axial Insertion Data, Free Body Diagrams},
   keywords = {biomedical imaging;biomedical ultrasonics;brachytherapy;computer graphic equipment;coprocessors;digital simulation;finite element analysis;haptic interfaces;haptic simulator;prostate brachytherapy;simulated needle-and-probe interaction;transrectal ultrasound probe;haptic devices;tissue interaction forces;deformable tissue model;finite element method;needle-tissue simulation;TRUS-tissue interaction simulation;graphics card implementation;numerically intensive mesh adaptation operation;3D intraoperative TRUS placement;treatment planning;Needles;Probes;Haptic interfaces;Computational modeling;Force;Brachytherapy;Shafts;Medical training;prostate brachytherapy.},
 }
 
@@ -945,7 +950,7 @@
   pages     = {2705-2710},
   doi       = {10.1109/ROBOT.2009.5152853},
   file      = {:Model/SpringDamperModels/torabi2009.pdf:PDF},
-  groups    = {Spring-Damper Models},
+  groups    = {Spring-Damper Models, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {biological organs;biological tissues;biomedical imaging;brachytherapy;closed loop systems;feedback;manipulators;medical robotics;robust control;stochastic programming;robotic tissue manipulation;medical needle insertion procedure;phased controller;manipulator;closed-loop imaging feedback;automated procedure planning technique;tissue geometry;stochastic optimization;cost function;tissue stress;robust control;mass-spring model;prostate brachytherapy procedure;simulation;obstacle avoidance;Needles;Automatic control;Biomedical imaging;Robot sensing systems;Medical robotics;Robotics and automation;Manipulators;Feedback;Geometry;Stochastic processes},
 }
@@ -1015,14 +1020,14 @@
 
 @Article{Lehmann2013,
   author  = {Lehmann, Thomas and Tavakoli, Mahdi and Usmani, Nawaid and Sloboda, Ronald},
-  title   = {Force-Sensor-Based Estimation of Needle Tip Deflection in Brachytherapy},
   journal = {Journal of Sensors},
+  title   = {Force-Sensor-Based Estimation of Needle Tip Deflection in Brachytherapy},
   year    = {2013},
-  volume  = {2013},
   month   = {06},
+  volume  = {2013},
   doi     = {10.1155/2013/263153},
   file    = {:Model/MecanicsBasedModels/Lehmann-Sensors-2013.pdf:PDF},
-  groups  = {Mechanics Based Models},
+  groups  = {Mechanics Based Models, Free Body Diagrams},
 }
 
 @Article{Faerber2009,
@@ -1037,7 +1042,7 @@
   volume   = {48},
   doi      = {10.3414/ME0566},
   file     = {:HapticSimulation/10.3414@me0566 (1).pdf:PDF},
-  groups   = {Haptic Simulation},
+  groups   = {Haptic Simulation, Free Body Diagrams},
   keywords = {rank5},
   ranking  = {rank5},
 }
@@ -1124,7 +1129,7 @@
   volume   = {19},
   doi      = {10.1109/TRA.2003.817044},
   file     = {:Model/FEMModels/dimaio2003.pdf:PDF},
-  groups   = {Finite Element Methods, Velocity Dependence, Next},
+  groups   = {Finite Element Methods, Velocity Dependence, Next, Free Body Diagrams},
   keywords = {biological tissues;phantoms;biomechanics;finite element analysis;real-time systems;physiological models;Young's modulus;medical robotics;manipulators;elasticity;medical image processing;surgery;needle insertion modeling;needle insertion simulation;force distribution;needle shaft;planar tissue phantom deformation;two-dimensional linear elastostatic material model;finite element method;contact force information;needle forces;soft tissue deformations;general needle trajectories;multiple dimensions;graphical simulations;haptic real-time simulations;force displacement relationship;condensation technique;very fast interactive simulations;stiffness matrix changes;boundary conditions;material coordinate frames;low-rank matrix updates;planar robotic manipulator;end-effector;Needles;Force measurement;Transmission line matrix methods;Shafts;Imaging phantoms;Biological materials;Finite element methods;Biological tissues;Haptic interfaces;Boundary conditions, rank5},
   ranking  = {rank5},
 }
@@ -1157,7 +1162,7 @@
   pages     = {753-758},
   doi       = {10.1109/BIOROB.2010.5625943},
   file      = {:Model/FEMModels/xu2010.pdf:PDF},
-  groups    = {Finite Element Methods, [thanos:]},
+  groups    = {Finite Element Methods, [thanos:], Free Body Diagrams},
   issn      = {2155-1774},
   keywords  = {biological tissues;biomedical equipment;least squares approximations;needles;bevel-tip flexible needle insertion;soft tissue;moving least square approximation;motion planning;meshless framework;nonholonomic property;Needles;Biological tissues;Computational modeling;Three dimensional displays;Force;Planning;Least squares approximation, rank5},
   ranking   = {rank5},
@@ -1245,7 +1250,7 @@
   year      = {2006},
   month     = {07},
   file      = {:Model/MecanicsBasedModels/06_euro.pdf:PDF},
-  groups    = {Mechanics Based Models, Axial Forces, Next, Axial Insertion Data, [thanos:]},
+  groups    = {Mechanics Based Models, Axial Forces, Next, Axial Insertion Data, [thanos:], Free Body Diagrams},
   keywords  = {rank5},
   ranking   = {rank5},
 }
@@ -1335,13 +1340,14 @@
   author   = {Cheng, Zhuoqi and Chauhan, Manish and Brian, Davies and Darwin, Caldwell and Mattos, Leonardo},
   title    = {Modelling Needle Forces during Insertion into Soft Tissue},
   year     = {2015},
-  volume   = {2015},
   month    = {08},
+  volume   = {2015},
   doi      = {10.1109/EMBC.2015.7319477},
   file     = {:Model/MecanicsBasedModels/07319477.pdf:PDF},
-  groups   = {Mechanics Based Models, Axial Forces, Next},
+  groups   = {Mechanics Based Models, Axial Forces, Next, Free Body Diagrams},
   journal  = {Conference proceedings: ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference},
   keywords = {rank5},
+  ranking  = {rank5},
 }
 
 @Article{DiMaio2003,
@@ -1368,7 +1374,7 @@
   pages    = {1350031},
   volume   = {5},
   file     = {:Model/Identification/boroomand2014.pdf:PDF},
-  groups   = {Identification, Axial Forces, Deflection Models, Axial Insertion Data},
+  groups   = {Identification, Axial Forces, Deflection Models, Axial Insertion Data, Free Body Diagrams},
   keywords = {rank5},
   ranking  = {rank5},
 }
@@ -1383,15 +1389,15 @@
 
 @Article{Dehghan2007,
   author  = {Dehghan, Ehsan and Wen, xu and Zahiri Azar, Reza and Marchal, Maud and Salcudean, Septimiu},
-  title   = {Parameter Identification for a Needle-Tissue Interaction Model},
   journal = {Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference},
+  title   = {Parameter Identification for a Needle-Tissue Interaction Model},
   year    = {2007},
-  volume  = {2007},
-  pages   = {190-3},
   month   = {02},
+  pages   = {190-3},
+  volume  = {2007},
   doi     = {10.1109/IEMBS.2007.4352255},
   file    = {:Model/Identification/DWZ07a.pdf:PDF},
-  groups  = {Identification, Finite Element Methods},
+  groups  = {Identification, Finite Element Methods, Free Body Diagrams},
 }
 
 @Book{Keesman2011,
@@ -1497,7 +1503,7 @@
   pages     = {184-189},
   doi       = {10.1109/VECIMS.2008.4592777},
   file      = {:Model/Energy Methods/xuejianhe2008.pdf:PDF},
-  groups    = {Energy Methods},
+  groups    = {Energy Methods, Free Body Diagrams},
   issn      = {1944-9410},
   keywords  = {biological tissues;biomechanics;biomedical equipment;haptic interfaces;medical computing;needles;surgery;haptic insertion simulation;needle buckling;surgical procedure;tissue structure;needle insertion simulation method;haptic interface;feedback force;experimental simulation system;Needles;Force;Numerical models;Haptic interfaces;Deformable models;Mathematical model;Atmospheric modeling;flexible needle;haptics;needle insertion;buckling},
 }
@@ -1625,7 +1631,7 @@
   month   = {08},
   doi     = {10.1007/3-540-45786-0_27},
   file    = {:Model/Identification/Measurement_of_Tip_and_Friction_Force_Acting_on_a_.pdf:PDF},
-  groups  = {Identification, Mechanics Based Models, Axial Forces, Axial Insertion Data},
+  groups  = {Identification, Mechanics Based Models, Axial Forces, Axial Insertion Data, Free Body Diagrams},
   journal = {5th international conference on medical image computing and computer assisted intervention, vol 2488},
 }
 
@@ -1701,17 +1707,18 @@
 }
 
 @InProceedings{Abolhassani2007b,
-  author    = {N. {Abolhassani} and R. {Patel} and F. {Ayazi}},
-  booktitle = {2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society},
-  title     = {Effects of Different Insertion Methods on Reducing Needle Deflection},
-  year      = {2007},
-  month     = {Aug},
-  pages     = {491-494},
-  doi       = {10.1109/IEMBS.2007.4352330},
-  file      = {:Model/MecanicsBasedModels/abolhassani2007.pdf:PDF},
-  groups    = {Mechanics Based Models},
-  issn      = {1558-4615},
-  keywords  = {biological tissues;brachytherapy;phantoms;insertion methods;needle deflection;medical procedures;prostate brachytherapy;flexible beveled-tip needle;needle rotation;target displacement;model-based method;Euler-Bernoulli beam equations;gelatin phantoms;animal tissue;Needles;Imaging phantoms;Brachytherapy;Magnetic sensors;Surgery;Medical diagnostic imaging;Biological tissues;Spinning;Force measurement;Force sensors;Animals;Humans;Models, Theoretical;Monitoring, Intraoperative;Needles},
+  author     = {N. {Abolhassani} and R. {Patel} and F. {Ayazi}},
+  booktitle  = {2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society},
+  title      = {Effects of Different Insertion Methods on Reducing Needle Deflection},
+  year       = {2007},
+  month      = {Aug},
+  pages      = {491-494},
+  doi        = {10.1109/IEMBS.2007.4352330},
+  file       = {:Model/MecanicsBasedModels/abolhassani2007.pdf:PDF},
+  groups     = {Mechanics Based Models, Free Body Diagrams},
+  issn       = {1558-4615},
+  keywords   = {biological tissues;brachytherapy;phantoms;insertion methods;needle deflection;medical procedures;prostate brachytherapy;flexible beveled-tip needle;needle rotation;target displacement;model-based method;Euler-Bernoulli beam equations;gelatin phantoms;animal tissue;Needles;Imaging phantoms;Brachytherapy;Magnetic sensors;Surgery;Medical diagnostic imaging;Biological tissues;Spinning;Force measurement;Force sensors;Animals;Humans;Models, Theoretical;Monitoring, Intraoperative;Needles, read},
+  readstatus = {read},
 }
 
 @Article{Podder2006a,
@@ -1763,7 +1770,7 @@
   pages     = {1896-1901},
   doi       = {10.1109/ICRA.2011.5979810},
   file      = {:Model/Identification/Pickton20135703.pdf:PDF},
-  groups    = {Identification},
+  groups    = {Identification, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {bending;biological tissues;friction;medical robotics;needles;surgery;distributed friction;needle insertion;soft tissue;complex nonlinear phenomenon;flexible needle;bending mechanics;stop-and-start planning scenario;insertion velocities;distributed LuGre model;artificial phantom;needle-tissue interaction;percutaneous interventions;Friction;Force;Needles;Mathematical model;Robots;Predictive models;Dynamics},
 }
@@ -1829,15 +1836,15 @@
 
 @Article{Haddadi2011,
   author  = {Haddadi, Amir and Hashtrudi-Zaad, Keyvan},
-  title   = {Development of a dynamic model for bevel-tip flexible needle insertion into soft tissues},
   journal = {Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference},
+  title   = {Development of a dynamic model for bevel-tip flexible needle insertion into soft tissues},
   year    = {2011},
-  volume  = {2011},
-  pages   = {7478-82},
   month   = {08},
+  pages   = {7478-82},
+  volume  = {2011},
   doi     = {10.1109/IEMBS.2011.6091845},
   file    = {:Model/FEMModels/haddadi2011.pdf:PDF},
-  groups  = {Finite Element Methods, Next},
+  groups  = {Finite Element Methods, Next, Free Body Diagrams},
 }
 
 @InProceedings{Elgezua2014,
@@ -1894,15 +1901,15 @@
 
 @Article{Neubach2010,
   author  = {Neubach, Zipi and Shoham, Moshe},
-  title   = {Ultrasound-Guided Robot for Flexible Needle Steering},
   journal = {Biomedical Engineering, IEEE Transactions on},
+  title   = {Ultrasound-Guided Robot for Flexible Needle Steering},
   year    = {2010},
-  volume  = {57},
-  pages   = {799 - 805},
   month   = {05},
+  pages   = {799 - 805},
+  volume  = {57},
   doi     = {10.1109/TBME.2009.2030169},
   file    = {:Model/MecanicsBasedModels/Ultrasound-Guided_Robot_for_Flexible_Needle_Steering-WnE.pdf:PDF},
-  groups  = {Mechanics Based Models},
+  groups  = {Mechanics Based Models, Free Body Diagrams},
 }
 
 @InProceedings{Moreira2012,
@@ -1922,40 +1929,40 @@
 
 @Article{Heng2006,
   author  = {Heng, Pheng-Ann and Wong, Tien-Tsin and Leung, Ka-Man and Chui, Yim-Pan and Sun, Hanqiu},
-  title   = {A Haptic Needle Manipulation Simulator for Chinese Acupuncture Learning and Training},
   journal = {Int. J. Image Graphics},
+  title   = {A Haptic Needle Manipulation Simulator for Chinese Acupuncture Learning and Training},
   year    = {2006},
-  volume  = {6},
-  pages   = {205-230},
   month   = {01},
+  pages   = {205-230},
+  volume  = {6},
   doi     = {10.1145/1044588.1044598},
   file    = {:Model/Identification/heng2004.pdf:PDF},
-  groups  = {Identification, Next, Axial Insertion Data},
+  groups  = {Identification, Next, Axial Insertion Data, Free Body Diagrams},
 }
 
 @Article{Li2015,
   author  = {Li, Pan and Jiang, Shan and Yu, Yan and Yang, Jun and Yang, Zhiyong},
-  title   = {Biomaterial characteristics and application of silicone rubber and PVA hydrogels mimicked in organ groups for prostate brachytherapy},
   journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  title   = {Biomaterial characteristics and application of silicone rubber and PVA hydrogels mimicked in organ groups for prostate brachytherapy},
   year    = {2015},
-  volume  = {49},
   month   = {09},
+  volume  = {49},
   doi     = {10.1016/j.jmbbm.2015.05.012},
   file    = {:Model/Identification/JMBBM.pdf:PDF},
-  groups  = {Identification, Next, Axial Insertion Data},
+  groups  = {Identification, Next, Axial Insertion Data, Free Body Diagrams},
 }
 
 @Article{Shergold2005,
   author  = {Shergold, Oliver and Fleck, Norman},
-  title   = {Experimental Investigation Into the Deep Penetration of Soft Solids by Sharp and Blunt Punches, With Application to the Piercing of Skin},
   journal = {Journal of biomechanical engineering},
+  title   = {Experimental Investigation Into the Deep Penetration of Soft Solids by Sharp and Blunt Punches, With Application to the Piercing of Skin},
   year    = {2005},
-  volume  = {127},
-  pages   = {838-48},
   month   = {11},
+  pages   = {838-48},
+  volume  = {127},
   doi     = {10.1115/1.1992528},
   file    = {:Model/Identification/shergold2005.pdf:PDF},
-  groups  = {Identification, Axial Insertion Data},
+  groups  = {Identification, Axial Insertion Data, Free Body Diagrams},
 }
 
 @InProceedings{Asadian2013,
@@ -1976,7 +1983,7 @@
   volume    = {2},
   doi       = {10.1109/ROBOT.2004.1308127},
   file      = {:Model/FEMModels/nienhuys2004.pdf:PDF},
-  groups    = {Finite Element Methods, Next},
+  groups    = {Finite Element Methods, Next, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {medical robotics;biological tissues;finite element analysis;iterative methods;geometry;computational technique;interactive needle insertions;3D nonlinear material;soft tissue;finite element method;FEM;iterative method;mesh quality;needle trajectory;friction forces;nonlinear geometry;2D simulation;medical robotics;Needles;Computational modeling;Friction;Geometry;Biological materials;Biological tissues;Finite element methods;Nonlinear equations;Iterative methods;Solid modeling},
 }
@@ -1990,7 +1997,7 @@
   pages     = {2687-2692},
   doi       = {10.1109/ROBOT.2009.5152721},
   file      = {:Model/FEMModels/misra2009.pdf:PDF},
-  groups    = {Finite Element Methods, Survey Papers, Next},
+  groups    = {Finite Element Methods, Survey Papers, Next, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {bending;biological tissues;biomechanics;elasticity;fracture toughness;gels;medical robotics;needle-tissue interaction;bevel-tip needle;mechanics-based model;elastic medium;microscopic observation;needle-gel interaction;energy-based model formulation;tissue-specific parameter;rupture toughness;nonlinear material elasticity;interaction stiffness;needle geometric property;material property;robotic needle steering;Needles;Microscopy;Robots;Biological tissues;Shafts;Solid modeling;Biological materials;Elasticity;Material properties;Kinematics},
 }
@@ -2126,7 +2133,7 @@
   abstract = {Although `Needle steering` is considered a challenge in needle insertion strategies, needle control becomes a crucial training tool for evaluating surgeon`s skills in such critical incision. In this study, a model-based dynamics equation for the needle movement through the soft tissue is developed. In the proposed control scheme, the force estimation calculated through the simulated tissue deformation data and the dynamic finite element as the tissue model, is used as the force feedback. To point out the role of mechanical properties of the soft tissue, an inverse dynamics control method is used to demonstrate the system performance in presence of uncertainty in tissue mechanical parameters. Moreover, it is shown that the uncertainty in the tissue mechanical parameters dramatically affects the system performance as well as causing instability. Hence subsequently, a robust control approach is designed to compensate for the undesirable effect of parameter uncertainty in the system.},
   doi      = {10.1049/iet-cta.2011.0449},
   file     = {:Model/FEMModels/06336893.pdf:PDF},
-  groups   = {Finite Element Methods, Next},
+  groups   = {Finite Element Methods, Next, Free Body Diagrams},
   keywords = {biological tissues;biomedical education;brachytherapy;cancer;compensation;control engineering education;finite element analysis;force feedback;human-robot interaction;medical robotics;patient treatment;robot dynamics;robust control;uncertain systems;needle dynamics modelling;needle dynamics control;prostate brachytherapy;needle steering;needle insertion strategies;training tool;model-based dynamics equation;force estimation;tissue deformation data;dynamic finite element;tissue model;force feedback;soft tissue mechanical properties;inverse dynamics control method;robust control;parameter uncertainty},
 }
 
@@ -2141,7 +2148,7 @@
   abstract = {Needle insertion is critical in many clinical medicine procedures, such as biopsy, brachytherapy, and injection therapy. A platform with two degrees of freedom was set up to study the effect of vibration frequency on needle insertion force. The gel phantom deformation at the needle cutting edge and the Voigt model are utilized to develop a dynamic model to explain the relationship between the insertion force and needle-tip velocity. The accuracy of this model was verified by performing needle insertions into phantom gel. The effect of vibration on insertion force can be explained as the vibration increasing the needle-tip velocity and subsequently increasing the insertion force. In a series of needle insertion experiments with different vibration frequencies, the peak forces were selected for comparison to explore the effect of vibration frequency on needle insertion force. The experimental results indicate that the insertion force at 500Hz increases up to 17.9% compared with the force at 50Hz.},
   doi      = {https://doi.org/10.1016/j.medengphy.2017.02.011},
   file     = {:Model/Identification/tan2017.pdf:PDF},
-  groups   = {Identification},
+  groups   = {Identification, Free Body Diagrams},
   keywords = {Needle insertion, Vibration, Voigt model, Insertion force},
   url      = {http://www.sciencedirect.com/science/article/pii/S1350453317300632},
 }
@@ -2180,14 +2187,14 @@
 
 @Article{DeLorenzo2012,
   author  = {De Lorenzo, Danilo and Koseki, Yoshihiko and De Momi, Elena and Chinzei, Kiyoyuki and Okamura, Allison},
-  title   = {Coaxial Needle Insertion Assistant With Enhanced Force Feedback},
   journal = {IEEE transactions on bio-medical engineering},
+  title   = {Coaxial Needle Insertion Assistant With Enhanced Force Feedback},
   year    = {2012},
-  volume  = {60},
   month   = {11},
+  volume  = {60},
   doi     = {10.1109/TBME.2012.2227316},
   file    = {:Model/MecanicsBasedModels/delorenzo2013.pdf:PDF},
-  groups  = {Mechanics Based Models},
+  groups  = {Mechanics Based Models, Free Body Diagrams},
 }
 
 @InProceedings{Haddadi2010,
@@ -2215,7 +2222,7 @@
   abstract  = {A tissue-independent model to estimate needle deflection during insertion in soft tissue is presented in this paper. A force/torque sensor is connected to the needle base in order to measure forces and moments during insertion due to needle deflection. A static mechanical model, which is based on the Euler-Bernoulli beam equation and the balance of forces applied by the tissue onto the needle takes these force and moment measurements as input. The needle tip deflection can then be calculated based on the beam model undergoing these forces. Three different needle-tissue interaction models are presented. Their estimation performance is evaluated and experimentally compared by carrying out insertion experiments into phantom tissue. The experimental results show a precise estimate of needle tip deflection for a novel virtual sensor introduced in this work. The main advantage of this virtual sensor approach is that measurements obtained from the force/torque sensor are the only necessary model inputs. Furthermore, the approach does not rely on ultrasound or other image-based needle observation techniques. This makes the virtual sensor suitable for real-time feedback of needle tip deflection.},
   doi       = {10.1109/ICRA.2015.7139346},
   file      = {:Model/DeflectionModels/jushiddi2019.pdf:PDF},
-  groups    = {Deflection Models, Mechanics Based Models, Next},
+  groups    = {Deflection Models, Mechanics Based Models, Next, Free Body Diagrams},
   issn      = {1050-4729},
   keywords  = {biological tissues;biomedical measurement;force measurement;force sensors;medical robotics;torque measurement;needle deflection estimation;soft-tissue needle insertion;tissue-independent model;force-torque sensor;force measurement;static mechanical model;Euler-Bernoulli beam equation;moment measurements;needle tip deflection;beam model;needle-tissue interaction models;phantom tissue;virtual sensor approach;image-based needle observation techniques;Needles;Load modeling;Force;Mathematical model;Force measurement;DC motors;Robot sensing systems},
 }
@@ -2230,7 +2237,7 @@
   abstract  = {Needle insertion is commonly used in procedures such as prostate brachytherapy or biopsy. In prostate brachytherapy, the success of the procedure depends on the accurate placement of needles in their pre-planned target location. In order to steer the needle towards a defined target, past research has used ultrasound-image-based needle localization for needle tip position feedback. Acquiring and processing of ultrasound images, however, significantly limits the control sampling rate. This work proposes a method for needle path prediction and control without the need for image feedback. The needle tip path obtained during insertion from a force-sensor-based deflection estimator is used to parameterize a kinematic bicycle model. The bicycle model is then used to predict the needle tip path and the ideal rotation depth for reaching a desired target. Experimental results show that the introduced method accurately predicts the needle tip path and the ideal rotation depth to guide the needle to a pre-defined target.},
   doi       = {10.1109/AIM.2016.7576929},
   file      = {:Model/DeflectionModels/lehmann2016.pdf:PDF},
-  groups    = {Deflection Models},
+  groups    = {Deflection Models, Free Body Diagrams},
   keywords  = {biological tissues;biomedical ultrasonics;brachytherapy;force sensors;image sampling;medical image processing;needles;position control;kinematic bicycle model;needle path prediction;sampling rate control;ultrasound image processing;needle tip position feedback;ultrasound-image-based needle localization;preplanned target location;needle placement;biopsy;prostate brachytherapy;soft tissue;needle insertion;force-sensor-based deflection estimator;needle path control;Needles;Bicycles;Predictive models;Mathematical model;Kinematics;Trajectory;Load modeling},
 }
 
@@ -2247,35 +2254,36 @@
   abstract = {This work proposes a real-time estimator for needle tip deflection and needle shape during needle insertion into soft tissue. The estimator is based on an adaptive quasi-static mechanics-based model for needle-tissue interactions. The model uses Euler-Bernoulli beam theory to model the needle as a cantilever beam that experiences loads imposed by the tissue. The modeled needle-tissue interactions consist of a distributed load along the inserted needle portion and tissue cutting-related point load at the needle tip. We propose a closed-form solution to quantify the magnitude of these needle-tissue interaction loads based on force and torque measured at the needle base. The model adaptively adjusts the shape of the distributed load as the needle is inserted. Experiments are carried out into gelatin phantom and porcine tissue to validate the deflection estimate's performance. The newly proposed model's performance is compared against a previously proposed quasi-static model for needle-deflection estimation. It is shown that the novel model outperforms the previously proposed model.},
   doi      = {10.1109/TMECH.2016.2598701},
   file     = {:Model/DeflectionModels/lehmann2016a.pdf:PDF},
-  groups   = {Deflection Models},
+  groups   = {Deflection Models, Free Body Diagrams},
   keywords = {biological tissues;force measurement;gelatin;phantoms;tissue engineering;torque measurement;real-time estimator;needle tip deflection;needle shape;needle-tissue interaction loads;needle insertion;soft tissue;adaptive quasistatic mechanics-based model;Euler-Bernoulli beam theory;cantilever beam;tissue cutting-related point load;force measurement;torque measurement;needle base;gelatin phantom;porcine tissue;Needles;Load modeling;Force;Adaptation models;Shape;Ultrasonic imaging;Shafts},
 }
 
 @PhdThesis{Barnett2015a,
   author = {Barnett, Andrew Charles},
-  title  = {Tissue cutting mechanics of dynamic needle insertion},
   school = {Penn State University},
+  title  = {Tissue cutting mechanics of dynamic needle insertion},
   year   = {2015},
   month  = {12},
   file   = {:SimilarPhDs/abarnett_dissertation.pdf:PDF},
-  groups = {PhDs, Next, Axial Insertion Data},
+  groups = {PhDs, Next, Axial Insertion Data, Free Body Diagrams},
 }
 
 @Article{Abolhassani2007a,
-  author   = {Abolhassani, Niki and Patel, Rajni V. and Ayazi, Farzam},
-  journal  = {The International Journal of Medical Robotics and Computer Assisted Surgery},
-  title    = {Minimization of needle deflection in robot-assisted percutaneous therapy},
-  year     = {2007},
-  number   = {2},
-  pages    = {140-148},
-  volume   = {3},
-  abstract = {Abstract Background Needle deflection and tissue deformation are two problems encountered during needle insertion into soft, non-homogeneous tissue. They affect the accuracy of needle placement, which in turn affects the effectiveness of needle-based therapies and biopsies. Methods In this study, a needle is inserted using a robot with two degrees of freedom. The needle is modelled as a flexible beam with clamped support at one end, and its deflection is estimated using online force/moment measurements at the needle base. To compensate for the needle deflection, the needle is axially rotated through 180° . The needle deflection estimation data is used to find the insertion depths at which needle rotations are to be performed. Results A bevelled-tip needle was inserted into animal tissue. The needle deflection at the target was reduced by about 90\%. It was observed that minimization of needle deflection reduced tissue deformation. The proposed method reduced needle deflection more than when needle insertion was performed with constant rotation. Conclusions Estimating needle tip position using online force/moment measurement improves the accuracy of robot-assisted percutaneous procedures when imaging feedback is not available. Copyright © 2007 John Wiley \& Sons, Ltd.},
-  doi      = {10.1002/rcs.136},
-  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rcs.136},
-  file     = {:Model/DeflectionModels/abolhassani2007.pdf:PDF},
-  groups   = {Deflection Models, Rotation Dependence},
-  keywords = {robotic needle insertion, prostate brachytherapy, needle deflection, trajectory generation, soft tissue deformation},
-  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rcs.136},
+  author     = {Abolhassani, Niki and Patel, Rajni V. and Ayazi, Farzam},
+  journal    = {The International Journal of Medical Robotics and Computer Assisted Surgery},
+  title      = {Minimization of needle deflection in robot-assisted percutaneous therapy},
+  year       = {2007},
+  number     = {2},
+  pages      = {140-148},
+  volume     = {3},
+  abstract   = {Abstract Background Needle deflection and tissue deformation are two problems encountered during needle insertion into soft, non-homogeneous tissue. They affect the accuracy of needle placement, which in turn affects the effectiveness of needle-based therapies and biopsies. Methods In this study, a needle is inserted using a robot with two degrees of freedom. The needle is modelled as a flexible beam with clamped support at one end, and its deflection is estimated using online force/moment measurements at the needle base. To compensate for the needle deflection, the needle is axially rotated through 180° . The needle deflection estimation data is used to find the insertion depths at which needle rotations are to be performed. Results A bevelled-tip needle was inserted into animal tissue. The needle deflection at the target was reduced by about 90\%. It was observed that minimization of needle deflection reduced tissue deformation. The proposed method reduced needle deflection more than when needle insertion was performed with constant rotation. Conclusions Estimating needle tip position using online force/moment measurement improves the accuracy of robot-assisted percutaneous procedures when imaging feedback is not available. Copyright © 2007 John Wiley \& Sons, Ltd.},
+  doi        = {10.1002/rcs.136},
+  eprint     = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rcs.136},
+  file       = {:Model/DeflectionModels/abolhassani2007.pdf:PDF},
+  groups     = {Deflection Models, Rotation Dependence, Free Body Diagrams},
+  keywords   = {robotic needle insertion, prostate brachytherapy, needle deflection, trajectory generation, soft tissue deformation, read},
+  readstatus = {read},
+  url        = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rcs.136},
 }
 
 @Article{Jushiddi2019,
@@ -2289,24 +2297,24 @@
   abstract = {Planning and practice of surgical procedures can be improved through the use of modelling. This study provides an insight into the biopsy needle (i.e. hollow cannula) and needle-tissue interactions using a modelling approach, thus enabling the optimization of needle-tip designs not only for training but also for the planning of surgical procedures. Simulations of needle insertion into agar gel were performed using a Coupled Eulerian-Lagrangian (CEL) based finite element (FE) analysis, adapted for large deformation and tissue fracture. The experimental work covers needle insertion into 3% agar gel using a needle with a beveled tip of various angles, to assess the validity of the simulation. The simulated needle deflection and insertion force for two needles (i.e. Needle 1 with 18° bevel angle and Needle 2 with 27° bevel angle) were compared with corresponding experimental results. The contact stress (i.e. contact pressure) on the needles from the agar gel during the insertion of the needles were also studied. Observations indicate that varying the needle bevel angle from 27° to 18° results in a decrease of the peak force (i.e. puncture force) and an increase in needle deflection. Quantitatively, the percentage errors between the experimental data and the FE model for the total insertion force along the z-direction (i.e. Z Force) for Needle 1 and 2 were 4% and 4.8% (p > 0.05), respectively. Similarly, needle deflection percentage errors along the x-z plane were 5.7% and 10% respectively. Therefore, the forces and needle deflection values predicted by the simulation are a close approximation of the experimental model, validating the Coupled Eulerian-Lagrangian based FE model. Thus, providing an experimentally validated model for biopsy and cytology needle design in silico that has the potential to replace the current build and break approach of needle design used by manufacturers.},
   doi      = {https://doi.org/10.1016/j.compbiomed.2019.103337},
   file     = {:Model/FEMModels/jushiddi2019.pdf:PDF},
-  groups   = {Finite Element Methods, Axial Insertion Data},
+  groups   = {Finite Element Methods, Axial Insertion Data, Free Body Diagrams},
   keywords = {Needle insertion, Bevel-tipped, Biopsy needle, Finite element analysis, Coupled eulerian Lagrangian method, Needle deflection},
   url      = {http://www.sciencedirect.com/science/article/pii/S0010482519302069},
 }
 
 @Article{Scali2019,
   author   = {Scali, M. and Breedveld, P. and Dodou, D.},
-  title    = {Experimental evaluation of a self-propelling bio-inspired needle in single- and multi-layered phantoms},
   journal  = {Scientific Reports},
+  title    = {Experimental evaluation of a self-propelling bio-inspired needle in single- and multi-layered phantoms},
   year     = {2019},
-  volume   = {9},
+  issn     = {2045-2322},
   number   = {1},
   pages    = {19988},
-  issn     = {2045-2322},
+  volume   = {9},
   abstract = {In percutaneous interventions, reaching targets located deep inside the body with minimal tissue damage and patient pain requires the use of long and thin needles. However, when pushed through a solid substrate, a structure with a high aspect ratio is prone to buckle. We developed a series of multi-element needles with a diameter smaller than 1 mm and a length larger than 200 mm, and we experimentally evaluated the performance of a bio-inspired insertion mechanism that prevents needle buckling of such slender structures. The needles consisted of Nitinol wires and advance into a substrate by pushing the wires forward one after the other, followed by pulling all the wires simultaneously backward. The resulting net push force is low, allowing the needles to self-propel through the substrate. We investigated the effect of the needle design parameters (number of wires and their diameter) and substrate characteristics (stiffness and number of layers) on the needle motion. Three needle prototypes (consisting of six 0.25-mm wires, six 0.125-mm wires, and three 0.25-mm wires, respectively) were inserted into single- and multi-layered tissue-mimicking phantoms. The prototypes were able to move forward in all phantoms without buckling. The amount of needle slip with respect to the phantom was used to assess the performance of the prototypes. The six-wire 0.25-mm prototype exhibited the least slip among the three prototypes. Summarizing, we showed that a bio-inspired motion mechanism prevents buckling in very thin (diameter <1 mm), long (length >200 mm) needles, allowing deep insertion into tissue-mimicking phantoms.},
   doi      = {10.1038/s41598-019-56403-0},
   file     = {:Model/Identification/s41598-019-56403-0.pdf:PDF},
-  groups   = {Identification, Axial Forces, Experimental Models},
+  groups   = {Identification, Axial Forces, Experimental Models, Free Body Diagrams},
   url      = {https://doi.org/10.1038/s41598-019-56403-0},
 }
 
@@ -2321,24 +2329,24 @@
   abstract = {In prostate brachytherapy, radioactive seeds are implanted into the prostate for treatment of early-stage localized cancer. A major issue is seed displacement due to needle deflection, which is difficult to control as the needle is inserted manually. To address the problem and automate needle insertion, robotic systems, mathematical models for estimation and prediction and control algorithms have been developed. The method of choice for robotic steering of beveled-tip needles is predominantly intermittent axial needle rotation since this re-aligns the beveled tip and thus re-directs the needle. In this work, we present a method for needle steering to supplement axial needle rotation. A point force applied laterally to the needle near its point of insertion into tissue is used to displace the needle perpendicularly relative to its insertion axis. An advantage of this method is that the lateral force provides a continuous control input and thus continuous deflection control as opposed to axial needle rotation by 180 degrees in the 2D case of planar needle steering. Further, more control over deflection is possible as the lateral force provides direct shape change for the needle and improves the under-actuated nature of the needle. In order to predict and estimate needle deflection during insertion while applying both lateral force and axial rotation, a mechanics- and energy-based model for needle deflection is developed. Both single-layer and multi-layer tissue can be modeled if the tissue layer thickness is known. The accuracy of the model is validated experimentally. A comparison between the measured tip deflection and the model-based estimate shows only a small error. Moreover, control and sensitivity studies are carried out through insertion simulations using the model. The studies show the potentials and limitations for needle deflection reduction with various combinations of lateral force application and intermittent 180 degrees axial needle rotation.},
   doi      = {https://doi.org/10.1016/j.mechatronics.2017.10.008},
   file     = {:Model/DeflectionModels/lehmann2017.pdf:PDF},
-  groups   = {Deflection Models},
+  groups   = {Deflection Models, Free Body Diagrams},
   keywords = {Medical robotics, Needle insertion, Brachytherapy, Needle actuation, Modeling, Deflection estimation},
   url      = {http://www.sciencedirect.com/science/article/pii/S0957415817301538},
 }
 
 @Article{Liu2019,
   author   = {Liu, Wanyu and Yang, Zhiyong and Li, Pan and Zhang, Jianpeng and Jiang, Shan},
-  title    = {Mechanics of tissue rupture during needle insertion in transverse isotropic soft tissue},
   journal  = {Medical \& Biological Engineering \& Computing},
+  title    = {Mechanics of tissue rupture during needle insertion in transverse isotropic soft tissue},
   year     = {2019},
-  volume   = {57},
+  issn     = {1741-0444},
   number   = {6},
   pages    = {1353-1366},
-  issn     = {1741-0444},
+  volume   = {57},
   abstract = {During robot-assisted percutaneous puncture surgery, a bevel-tipped needle is inserted into a fiber-structured soft tissue, which has transverse isotropic mechanical properties. Tissue rupture may lead to needle bending and insertion error. Therefore, analysis of the mechanics of rupture events in transverse isotropic space is essential for the precise control of needle motion. We analyzed the needle stiffness force and the cutting force, both related to rupture events, which are caused by contact deformation and tissue cutting, respectively. A modified model based on a homogeneous elastic half-space contact force model was used to describe the variation in the stiffness force of the needle. An energy-based maximum stiffness force model was proposed to predict the surface rupture for a needle that is inserted at different orientations. A model for the cutting force was presented based on a solid mechanics theory of unidirectional fiber-reinforced composite material to analyze the effect of the needle tip pose on the cutting force. Experiments on porcine muscle confirmed that the stiffness force and the cutting force were clearly influenced by the insertion orientation angle. The developed models could predict the stiffness force and the cutting force during needle insertion into the transverse isotropic tissue. This method provides a foundation for predicting needle deflection in the transverse isotropic space.},
   doi      = {10.1007/s11517-019-01955-6},
   file     = {:Model/Identification/Liu2019_Article_MechanicsOfTissueRuptureDuring.pdf:PDF},
-  groups   = {Axial Forces, Identification, Next, Axial Insertion Data},
+  groups   = {Axial Forces, Identification, Next, Axial Insertion Data, Tissue Cutting, Fracture Mechanics, Free Body Diagrams},
   url      = {https://doi.org/10.1007/s11517-019-01955-6},
 }
 
@@ -2506,7 +2514,7 @@
   doi      = {10.1115/DSCC2008-2222},
   eprint   = {https://asmedigitalcollection.asme.org/DSCC/proceedings-pdf/DSCC2008/43352/875/4573744/875\_1.pdf},
   file     = {:Model/AxialForces/bhasin2008.pdf:PDF},
-  groups   = {Axial Forces},
+  groups   = {Axial Forces, Free Body Diagrams},
   pages    = {875-882},
   url      = {https://doi.org/10.1115/DSCC2008-2222},
 }
@@ -2609,7 +2617,7 @@
   abstract  = {Percutaneous surgery is a typical minimally invasive surgery. Featuring minimization in trauma and infection rate as well as rapid recovery time to patients, percutaneous therapy has replaced various traditional open surgery approaches and has become an essential approach for a series of clinic operations over the past decades. However, the practice and training for such a vocational manual skill is both difficult and expensive, which imposes negative impacts on its further advances. In this paper, we conducted an immersive needle insertion simulator for percutaneous surgery through visuo-haptic rendering. Multi-layered deformable tissue model with human anatomic textures are simulated and rendered. Mass-spring based force model and algorithm are also employed for realistic trocar needle insertion. Last but not least, a highly immersive virtual training scenario, integrated with a desktop haptic device is implemented to facilitate perceptive and hands-on experiences. Medical professional and trainees have also been invited to practice on the training scenario and provide subjective opinions in refining our implementation.},
   doi       = {10.1109/SMC.2016.7844684},
   file      = {:Model/AxialForces/07844684.pdf:PDF},
-  groups    = {Axial Forces, Identification, Next},
+  groups    = {Axial Forces, Identification, Next, Free Body Diagrams},
   keywords  = {human resource management;medical control systems;rendering (computer graphics);surgery;tissue engineering;training;force modelling;multilayered needle puncture;percutaneous surgery training;minimally invasive surgery;trauma;infection rate;percutaneous therapy;open surgery;vocational manual skill;immersive needle insertion simulator;visuo-haptic rendering;multilayered deformable tissue model;human anatomic textures;mass-spring based force model;realistic trocar needle insertion;immersive virtual training scenario;desktop haptic device;hands-on experiences;medical professional;medical trainees;Needles;Haptic interfaces;Rendering (computer graphics);Bovine;Liver;Load modeling;Skin;percutaneous;haptic;simulation;deformable;trocar needle},
 }
 
@@ -2659,7 +2667,7 @@
   abstract = {A VR-based training system for practicing biopsies simulates ultrasound imagery by stitching multiple ultrasound volumes on the basis of a 3D scale-invariant feature transform algorithm. In addition, a six-degree-of-freedom force model delivers a realistic haptic rendering of needle insertion.},
   doi      = {10.1109/MCG.2009.151},
   file     = {:Model/AxialForces/05342379.pdf:PDF},
-  groups   = {Axial Forces, Next, Axial Insertion Data},
+  groups   = {Axial Forces, Next, Axial Insertion Data, Free Body Diagrams},
   keywords = {computer based training;haptic interfaces;medical computing;rendering (computer graphics);virtual reality;virtual reality simulator;ultrasound-guided biopsy training;3D scale-invariant feature transform algorithm;force model;haptic rendering;needle insertion rendering;Virtual reality;Ultrasonic imaging;Biopsy;Needles;Computational modeling;Haptic interfaces;Computed tomography;Surgery;Computer science;Biomedical engineering;Training;virtual surgery;ultrasound-guided biopsy;image registration and stitching;haptic modeling;deformable models;computer graphics;graphics and multimedia;Computer Simulation;Computer-Assisted Instruction;Equipment Design;Humans;Image-Guided Biopsy;Models, Biological;Ultrasonography, Interventional;User-Computer Interface},
 }
 
@@ -2672,7 +2680,7 @@
   pages     = {1-4},
   doi       = {10.1109/CNE.2007.369596},
   file      = {:AxialForceData/C2Data/04227201.pdf:PDF},
-  groups    = {C2 Data, Velocity Dependence},
+  groups    = {C2 Data, Velocity Dependence, Free Body Diagrams},
   issn      = {1948-3554},
 }
 
@@ -2704,7 +2712,7 @@
   volume  = {34},
   doi     = {10.1016/S0021-9290(01)00099-9},
   file    = {:AxialForceData/C2Data/1-s2.0-S0021929001000999-main.pdf:PDF},
-  groups  = {C3 Data, Velocity Dependence},
+  groups  = {C3 Data, Velocity Dependence, Tissue Cutting},
 }
 
 @InProceedings{Kobayashi2008,
@@ -2964,29 +2972,18 @@
 }
 
 @Article{Gokgol2012,
-  author    = {Gokgol, Can and Basdogan, Cagatay and Canadinc, Demircan},
-  journal   = {Medical engineering \& physics},
-  title     = {Estimation of fracture toughness of liver tissue: Experiments and validation},
-  year      = {2012},
-  number    = {7},
-  pages     = {882--891},
-  volume    = {34},
-  file      = {:Model/TissueCutting/1-s2.0-S1350453311002669-main.pdf:PDF},
-  groups    = {Tissue Cutting},
-  publisher = {Elsevier},
-}
-
-@Article{Shergold2004,
-  author    = {Shergold, Oliver A and Fleck, Norman A},
-  journal   = {Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences},
-  title     = {Mechanisms of deep penetration of soft solids, with application to the injection and wounding of skin},
-  year      = {2004},
-  number    = {2050},
-  pages     = {3037--3058},
-  volume    = {460},
-  file      = {:Model/TissueCutting/180.pdf:PDF},
-  groups    = {Tissue Cutting},
-  publisher = {The Royal Society},
+  author     = {Gokgol, Can and Basdogan, Cagatay and Canadinc, Demircan},
+  journal    = {Medical engineering \& physics},
+  title      = {Estimation of fracture toughness of liver tissue: Experiments and validation},
+  year       = {2012},
+  number     = {7},
+  pages      = {882--891},
+  volume     = {34},
+  file       = {:Model/TissueCutting/1-s2.0-S1350453311002669-main.pdf:PDF},
+  groups     = {Tissue Cutting},
+  keywords   = {read},
+  publisher  = {Elsevier},
+  readstatus = {read},
 }
 
 @InProceedings{Tanaka1998,
@@ -3024,7 +3021,7 @@
   title  = {Experimental investigation into the deep penetration of soft solids by sharp and blunt punches, with application to the piercing of skin},
   year   = {2005},
   file   = {:Model/TissueCutting/188730963.pdf:PDF},
-  groups = {Tissue Cutting},
+  groups = {Tissue Cutting, Free Body Diagrams},
 }
 
 @Article{Basdogan1999,
@@ -3037,6 +3034,187 @@
   volume  = {62},
   file    = {:Model/TissueCutting/download.pdf:PDF},
   groups  = {Tissue Cutting},
+}
+
+@Article{Doran,
+  author     = {C. F. Doran and B. A. O. McCormack and A. Macey},
+  title      = {A Simplified Model to Determine the Contribution of Strain Energy in the Failure Process of Thin Biological Membranes during Cutting},
+  issn       = {0039-2103},
+  pages      = {173-179},
+  volume     = {40},
+  doi        = {10.1111/j.1475-1305.2004.tb01426.x},
+  file       = {:Model/TissueCutting/j.1475-1305.2004.tb01426.x.pdf:PDF},
+  groups     = {Tissue Cutting},
+  keywords   = {read},
+  readstatus = {read},
+}
+
+@Article{Pereira1997,
+  author = {Barry P. Pereira and Peter W. Lucas and Teoh Swee-Hin},
+  title  = {Ranking the fracture toughness of thin mammalian soft tissues using the scissors cutting test},
+  year   = {1997},
+  issn   = {0021-9290},
+  pages  = {91-94},
+  volume = {30},
+  doi    = {10.1016/s0021-9290(96)00101-7},
+  file   = {:Model/TissueCutting/1-s2.0-S0021929096001017-main.pdf:PDF},
+  groups = {Tissue Cutting},
+}
+
+@Article{Shergold2004a,
+  author = {Oliver A. Shergold and Norman A. Fleck},
+  title  = {Mechanisms of deep penetration of soft solids, with application to the injection and wounding of skin},
+  year   = {2004},
+  issn   = {1364-5021},
+  pages  = {3037-3058},
+  volume = {460},
+  doi    = {10.1098/rspa.2004.1315},
+  file   = {:Model/TissueCutting/Mechanism_of_deep_penetration_of_soft_solids_with_.pdf:PDF},
+  groups = {Tissue Cutting, Free Body Diagrams},
+}
+
+@Article{Comley2010,
+  author = {Kerstyn Comley and Norman A. Fleck},
+  title  = {The toughness of adipose tissue: measurements and physical basis},
+  year   = {2010},
+  issn   = {0021-9290},
+  pages  = {1823-1826},
+  volume = {43},
+  doi    = {10.1016/j.jbiomech.2010.02.029},
+  file   = {:Model/TissueCutting/1-s2.0-S0021929010001120-main.pdf:PDF},
+  groups = {Tissue Cutting},
+}
+
+@Misc{Misra2008b,
+  author = {Sarthak Misra and Kyle B. Reed and Andrew S. Douglas and K. T. Ramesh and Allison M. Okamura},
+  title  = {Needle-tissue interaction forces for bevel-tip steerable needles},
+  year   = {2008},
+  doi    = {10.1109/biorob.2008.4762872},
+  file   = {:Model/TissueCutting/nihms-115085.pdf:PDF},
+  groups = {Tissue Cutting},
+}
+
+@Article{Silver2001,
+  author = {Frederick H. Silver and Joseph W. Freeman and Dale DeVore},
+  title  = {Viscoelastic properties of human skin and processed dermis},
+  year   = {2001},
+  issn   = {0909-752X},
+  pages  = {18-23},
+  volume = {7},
+  doi    = {10.1034/j.1600-0846.2001.007001018.x},
+  file   = {:Model/Biomechanics/Yuan-Cheng Fung (auth.) - Biomechanics_ Mechanical Properties of Living Tissues-Springer-Verlag New York (1993).pdf:PDF},
+  groups = {Biomechanics},
+}
+
+@Article{Manschot1986,
+  author = {J. F. M. Manschot and A. J. M. Brakkee},
+  title  = {The measurement and modelling of the mechanical properties of human skin in vivo—I. The measurement},
+  year   = {1986},
+  issn   = {0021-9290},
+  pages  = {511-515},
+  volume = {19},
+  doi    = {10.1016/0021-9290(86)90124-7},
+  groups = {Biomechanics},
+}
+
+@Misc{Roesthuis2011a,
+  author = {Roy J. Roesthuis and Youri R. J. van Veen and Alex Jahya and Sarthak Misra},
+  title  = {Mechanics of needle-tissue interaction},
+  year   = {2011},
+  doi    = {10.1109/iros.2011.6094969},
+  file   = {:Model/MecanicsBasedModels/06094969.pdf:PDF},
+  groups = {Mechanics Based Models, Free Body Diagrams},
+}
+
+@Article{Wu2006,
+  author = {John Z. Wu and Daniel E. Welcome and Ren G. Dong},
+  title  = {Three-dimensional finite element simulations of the mechanical response of the fingertip to static and dynamic compressions},
+  year   = {2006},
+  issn   = {1025-5842},
+  pages  = {55-63},
+  volume = {9},
+  doi    = {10.1080/10255840600603641},
+  file   = {:Model/FEMModels/Three dimensional finite element simulations of the mechanical response of the fingertip to static and dynamic compressions.pdf:PDF},
+  groups = {Finite Element Methods},
+}
+
+@Article{Karnopp1985,
+  author = {Dean Karnopp},
+  title  = {Computer Simulation of Stick-Slip Friction in Mechanical Dynamic Systems},
+  year   = {1985},
+  issn   = {0022-0434},
+  pages  = {100-103},
+  volume = {107},
+  doi    = {10.1115/1.3140698},
+  file   = {:Model/FrictionModels/karnopp1985.pdf:PDF},
+  groups = {Friction Models},
+}
+
+@Article{Wang2013,
+  author = {Yancheng Wang and Bruce L. Tai and Roland K. Chen and Albert J. Shih},
+  title  = {The Needle With Lancet Point: Geometry for Needle Tip Grinding and Tissue Insertion Force},
+  year   = {2013},
+  issn   = {1087-1357},
+  volume = {135},
+  doi    = {10.1115/1.4023718},
+  file   = {:Model/Geometry/wang2013.pdf:PDF},
+  groups = {Geometric Design},
+}
+
+@Misc{Alterovitz,
+  author = {R. Alterovitz and K. Goldberg and A. Okamura},
+  title  = {Planning for Steerable Bevel-tip Needle Insertion Through 2D Soft Tissue with Obstacles},
+  doi    = {10.1109/robot.2005.1570348},
+  file   = {:Model/MecanicsBasedModels/01570348.pdf:PDF},
+  groups = {Mechanics Based Models, Free Body Diagrams},
+}
+
+@Misc{Wedlick2012,
+  author = {Thomas R. Wedlick and Allison M. Okamura},
+  title  = {Characterization of robotic needle insertion and rotation in artificial and ex vivo tissues},
+  year   = {2012},
+  doi    = {10.1109/biorob.2012.6290924},
+  file   = {:Model/AxialForces/06290924.pdf:PDF},
+  groups = {Free Body Diagrams, Axial Forces},
+}
+
+@Article{Eskandari2008,
+  author = {H. Eskandari and S. E. Salcudean and R. Rohling},
+  title  = {Viscoelastic parameter estimation based on spectral analysis},
+  year   = {2008},
+  issn   = {0885-3010},
+  pages  = {1611-1625},
+  volume = {55},
+  doi    = {10.1109/tuffc.2008.839},
+  file   = {:Model/Biomechanics/04559659.pdf:PDF},
+  groups = {Biomechanics},
+}
+
+@Misc{Hoshi2009a,
+  author = {Takeharu Hoshi and Yo Kobayashi and Masakatsu G. Fujie},
+  title  = {Method to generate distribution maps of the material parameters of the human body using robotic and dynamic simulation systems},
+  year   = {2009},
+  doi    = {10.1109/si.2009.5384554},
+  file   = {:Model/Biomechanics/05384554.pdf:PDF},
+  groups = {Biomechanics},
+}
+
+@Misc{Roesthuis2012,
+  author = {Roy J. Roesthuis and Momen Abayazid and Sarthak Misra},
+  title  = {Mechanics-based model for predicting in-plane needle deflection with multiple bends},
+  year   = {2012},
+  doi    = {10.1109/biorob.2012.6290829},
+  file   = {:Model/MecanicsBasedModels/06290829.pdf:PDF},
+  groups = {Free Body Diagrams, Mechanics Based Models},
+}
+
+@Misc{Wedlick2009,
+  author = {T. R. Wedlick and A. M. Okamura},
+  title  = {Characterization of pre-curved needles for steering in tissue},
+  year   = {2009},
+  doi    = {10.1109/iembs.2009.5333407},
+  file   = {:Model/Geometry/Characterization_of_Pre-Curved_Needles_for_Steerin.pdf:PDF},
+  groups = {Free Body Diagrams},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -3060,6 +3238,8 @@
 2 StaticGroup:Friction Models\;0\;1\;\;\;\;;
 2 StaticGroup:Fracture Mechanics\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Tissue Cutting\;0\;1\;0x8a8a8aff\;\;\;;
+2 StaticGroup:Biomechanics\;0\;0\;\;\;\;;
+2 StaticGroup:Free Body Diagrams\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:Axial Insertion Data\;0\;1\;\;\;\;;
 1 StaticGroup:GerwenAxialData\;0\;0\;0x8a8a8aff\;\;\;;
 2 StaticGroup:C3 Data\;0\;1\;\;\;\;;
@@ -3069,7 +3249,6 @@
 1 StaticGroup:PhDs\;0\;1\;\;\;\;;
 1 StaticGroup:Robots\;0\;1\;\;\;\;;
 1 StaticGroup:Haptic Simulation\;0\;1\;\;\;\;;
-1 StaticGroup:Biomechanics\;0\;1\;\;\;\;;
 1 StaticGroup:Survey Papers\;0\;1\;\;\;\;;
 1 StaticGroup:Next\;0\;0\;\;\;\;;
 }
