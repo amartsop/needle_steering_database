@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1590412968 "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.tex" "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.pdf" "summary" 1590412968
+["pdflatex"] 1591382708 "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.tex" "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.pdf" "summary" 1593022794
   "/etc/texmf/web2c/texmf.cnf" 1563177165 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.aux" 1590412968 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.tex" 1590412967 995 f38d7eb841873756cd62c7d9e18821db ""
+  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.aux" 1591382708 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.tex" 1591382708 1123 b7c5fc9c68b2c20d35d9050de8d4abd1 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
@@ -34,11 +34,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1563290384 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1563290398 4129393 7d11a021b4ae723b562a8cd87e4b8e45 ""
-  "summary.aux" 1590412968 8 a94a2480d3289e625eea47cd1b285758 ""
-  "summary.tex" 1590412967 995 f38d7eb841873756cd62c7d9e18821db ""
+  "summary.aux" 1591382708 8 a94a2480d3289e625eea47cd1b285758 ""
+  "summary.tex" 1591382708 1123 b7c5fc9c68b2c20d35d9050de8d4abd1 ""
   (generated)
-  "summary.pdf"
+  "summary.aux"
+  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.log"
   "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.pdf"
   "summary.log"
-  "/home/thanos/Desktop/NeedleSteering/MastersIdeas/summary.log"
-  "summary.aux"
+  "summary.pdf"
